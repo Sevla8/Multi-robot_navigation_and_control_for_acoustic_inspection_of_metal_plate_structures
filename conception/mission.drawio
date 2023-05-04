@@ -1,0 +1,217 @@
+<mxfile host="65bd71144e">
+    <diagram id="1mCCtLUO9CEwjys3mk0_" name="Page-1">
+        <mxGraphModel dx="2236" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8" target="9">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-600" y="120" as="sourcePoint"/>
+                        <mxPoint x="-520" y="120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9" target="10">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-400" y="120" as="sourcePoint"/>
+                        <mxPoint x="-270" y="90" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="Crawler_1 in vertex 1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_2 in vertex 2&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;...&lt;br&gt;Crawler_k-1 in vertex k-1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_k in vertex k" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="-760" y="40" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Crawler_1 in vertex 1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_2 in vertex 2&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;...&lt;br&gt;Crawler_k-1 in vertex k-1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_k in vertex k+1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="-520" y="40" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Crawler_1 in vertex 1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_2 in vertex 2&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;...&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_k-1 in vertex k-1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_k in vertex n" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="-280" y="40" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Crawler_1 in vertex 1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_2 in vertex 2&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;...&lt;br&gt;Crawler_k-1 in vertex k&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_k in vertex n" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="-40" y="40" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="13">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-590" y="130" as="sourcePoint"/>
+                        <mxPoint x="-510" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="Crawler_1 in vertex 1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_2 in vertex 2&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;...&lt;br&gt;Crawler_k-1 in vertex n-1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_k in vertex n" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="40" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="17">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-350" y="130" as="sourcePoint"/>
+                        <mxPoint x="-270" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="Crawler_1 in vertex n-k&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_2 in vertex n-k+1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;...&lt;br&gt;Crawler_k-1 in vertex n-1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_k in vertex n" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="-760" y="240" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="17" target="19">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-350" y="130" as="sourcePoint"/>
+                        <mxPoint x="-270" y="130" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="400" y="120"/>
+                            <mxPoint x="400" y="220"/>
+                            <mxPoint x="-800" y="220"/>
+                            <mxPoint x="-800" y="320"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="Crawler_1 in vertex n-k&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_2 in vertex n-k+1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;...&lt;br&gt;Crawler_k-1 in vertex n-1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_k in vertex 1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="-520" y="240" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Crawler_1 in vertex n-k&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_2 in vertex n-k+1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;...&lt;br&gt;Crawler_k-1 in vertex n-1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_k in vertex n-k-1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="-280" y="240" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="21" target="22">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-350" y="130" as="sourcePoint"/>
+                        <mxPoint x="-270" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="19" target="21">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-590" y="130" as="sourcePoint"/>
+                        <mxPoint x="-510" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="Crawler_1 in vertex n-k&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_2 in vertex n-k+1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;...&lt;br&gt;Crawler_k-1 in vertex n&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_k in vertex n-k-1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="-40" y="240" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Crawler_1 in vertex n-k&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_2 in vertex n-k+1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;...&lt;br&gt;Crawler_k-1 in vertex n-k-2&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_k in vertex n-k-1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="240" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="25" target="26">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="130" y="130" as="sourcePoint"/>
+                        <mxPoint x="210" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22" target="25">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-110" y="130" as="sourcePoint"/>
+                        <mxPoint x="-30" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="-760" y="440" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="-520" y="440" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="-280" y="440" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="-40" y="440" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="440" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="endArrow=classic;html=1;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="26" target="29">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="390" y="280" as="sourcePoint"/>
+                        <mxPoint x="-790" y="570" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="400" y="320"/>
+                            <mxPoint x="400" y="420"/>
+                            <mxPoint x="-800" y="420"/>
+                            <mxPoint x="-800" y="520"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="" style="endArrow=classic;html=1;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="33" target="40">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="390" y="490" as="sourcePoint"/>
+                        <mxPoint x="-770" y="750" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="400" y="520"/>
+                            <mxPoint x="400" y="620"/>
+                            <mxPoint x="-800" y="620"/>
+                            <mxPoint x="-800" y="720"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="32" target="33">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="130" y="330" as="sourcePoint"/>
+                        <mxPoint x="210" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="31" target="32">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-110" y="330" as="sourcePoint"/>
+                        <mxPoint x="-30" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="30" target="31">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-350" y="330" as="sourcePoint"/>
+                        <mxPoint x="-270" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="29" target="30">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-590" y="330" as="sourcePoint"/>
+                        <mxPoint x="-510" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="Crawler_1 in vertex k+1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_2 in vertex k+2&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;...&lt;br&gt;Crawler_k-1 in vertex 2k%n-1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_k in vertex 2k%n" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="-760" y="640" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="Crawler_1 in vertex k+1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_2 in vertex k+2&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;...&lt;br&gt;Crawler_k-1 in vertex 2k%n-1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_k in vertex 2k%n+1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="-520" y="640" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Crawler_1 in vertex k+1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_2 in vertex k+2&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;...&lt;br&gt;Crawler_k-1 in vertex 2k%n-1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_k in vertex k" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="-280" y="640" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="Crawler_1 in vertex k+1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_2 in vertex k+2&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;...&lt;br&gt;Crawler_k-1 in vertex 2k%n&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_k in vertex k" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="-40" y="640" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Crawler_1 in vertex 1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_2 in vertex 2&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;...&lt;br&gt;Crawler_k-1 in vertex k-1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_k in vertex k" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="640" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="40" target="41">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-570" y="780" as="sourcePoint"/>
+                        <mxPoint x="-540" y="760" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="42" target="43">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-110" y="700" as="sourcePoint"/>
+                        <mxPoint x="-510" y="730" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="41" target="42">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-350" y="530" as="sourcePoint"/>
+                        <mxPoint x="-270" y="530" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="43" target="44">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-350" y="530" as="sourcePoint"/>
+                        <mxPoint x="-270" y="530" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="Crawler_1 in vertex 1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_2 in vertex 2&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;...&lt;br&gt;Crawler_k-1 in vertex k-1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Crawler_k in vertex k" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="-760" y="840" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="" style="endArrow=classic;html=1;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="44" target="49">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="370" y="670" as="sourcePoint"/>
+                        <mxPoint x="-780" y="960" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="400" y="720"/>
+                            <mxPoint x="400" y="820"/>
+                            <mxPoint x="-800" y="820"/>
+                            <mxPoint x="-800" y="920"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
