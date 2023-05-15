@@ -1,0 +1,11 @@
+GRID_WIDTH=6
+GRID_HEIGHT=6
+GRID_RESOLUTION=0.05
+DISTANCE=(6.0 3.0 2.0 1.0)
+STRIDE=(1.0 2.0 3.0 6.0)
+OVERLAP=0.1
+N_POINTS=(3 4 5 7 10)
+N_CRAWLERS=(2 3 4)
+K_TEAMS=(1 2 3)
+WORLD=(test_model_5 test_model_8 test_model_11 test_model_15 test_model_20 test_model_30 test_model_11_complex test_model_15_complex)
+MISSION=(peinture_au_rouleau ski_nordique investigate)

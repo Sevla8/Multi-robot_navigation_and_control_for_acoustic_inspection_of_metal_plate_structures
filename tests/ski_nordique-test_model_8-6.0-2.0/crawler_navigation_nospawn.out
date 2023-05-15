@@ -1,0 +1,776 @@
+[31m[ERROR] [1684008570.118327674]: Couldn't open joystick /dev/input/js1. Will retry every second.[0m
+[31m[ERROR] [1684008570.200550158]: Couldn't open joystick /dev/input/js1. Will retry every second.[0m
+the rosdep view is empty: call 'sudo rosdep init' and 'rosdep update'
+the rosdep view is empty: call 'sudo rosdep init' and 'rosdep update'
+[33m[ WARN] [1684008572.525891000, 18.870000000]: Task Idle interrupted[0m
+[33m[ WARN] [1684008572.624541744, 18.968000000]: Task Idle interrupted[0m
+[0m[ INFO] [1684008570.364316093]: Task scheduler created: debug 1[0m
+[0m[ INFO] [1684008570.385458730]: Adding task Wait[0m
+[0m[ INFO] [1684008570.385600369]: Adding task SetStatusSync[0m
+[0m[ INFO] [1684008570.385627542]: Adding task WaitForStatusSync[0m
+[0m[ INFO] [1684008570.386362207]: Looking for tasks in /home/chroma/Documents/bugwright2-ws/bugwright_ws/src/floor_nav/../../devel/share/floor_nav/tasks[0m
+[0m[ INFO] [1684008570.389966999]: Adding task WaitForROI[0m
+[0m[ INFO] [1684008570.393285058]: Adding task WaitForCompletion[0m
+[0m[ INFO] [1684008570.396918040]: Adding task WaitForAuto[0m
+[0m[ INFO] [1684008570.400704166]: Adding task Trigger[0m
+[0m[ INFO] [1684008570.404018434]: Adding task SetManual[0m
+[0m[ INFO] [1684008570.407237644]: Adding task SetHeading[0m
+[0m[ INFO] [1684008570.410987338]: Adding task PlanTo[0m
+[0m[ INFO] [1684008570.414754714]: Adding task ActionMoveGoal[0m
+[0m[ INFO] [1684008570.422349398]: Adding task ActionMoveBase[0m
+[0m[ INFO] [1684008570.426144160]: Adding task GoToPose[0m
+[0m[ INFO] [1684008570.429883656]: Adding task GoTo[0m
+[0m[ INFO] [1684008570.433770455]: Adding task FollowLine[0m
+[0m[ INFO] [1684008570.436109823]: Adding task Clear[0m
+[0m[ INFO] [1684008570.439969864]: Adding task AlignWithTarget[0m
+[0m[ INFO] [1684008570.550041251]: Task Directory:[0m
+[0m[ INFO] [1684008570.550077363]: 0 -- ActionMoveBase: Publish an action goal for move base[0m
+[0m[ INFO] [1684008570.550087261]: 1 -- ActionMoveGoal: Reach a desired goal using move base[0m
+[0m[ INFO] [1684008570.550094690]: 2 -- AlignWithTarget: Align with a target[0m
+[0m[ INFO] [1684008570.550101447]: 3 -- Clear: Clear the screen[0m
+[0m[ INFO] [1684008570.550114169]: 4 -- FollowLine: Follow a line[0m
+[0m[ INFO] [1684008570.550121411]: 5 -- GoTo: Reach a desired destination[0m
+[0m[ INFO] [1684008570.550128086]: 6 -- GoToPose: Reach a desired destination[0m
+[0m[ INFO] [1684008570.550134653]: 7 -- PlanTo: Reach a desired destination using the path planner[0m
+[0m[ INFO] [1684008570.550141317]: 8 -- SetHeading: Reach a desired heading angle[0m
+[0m[ INFO] [1684008570.550150848]: 9 -- SetManual: Set the control mux to manual mode[0m
+[0m[ INFO] [1684008570.550157800]: 10 -- SetStatusSync: Update the current task status to be published by the environment[0m
+[0m[ INFO] [1684008570.550164704]: 11 -- Trigger: Call a trigger service[0m
+[0m[ INFO] [1684008570.550171193]: 12 -- Wait: Do nothing for a given time[0m
+[0m[ INFO] [1684008570.550180661]: 13 -- WaitForAuto: Wait for the control mux to switch to auto[0m
+[0m[ INFO] [1684008570.550187535]: 14 -- WaitForCompletion: Do nothing until a given area is completely empty[0m
+[0m[ INFO] [1684008570.550194241]: 15 -- WaitForROI: Do nothing until we reach a given destination[0m
+[0m[ INFO] [1684008570.550200737]: 16 -- WaitForStatusSync: Wait for a sync object to get the desired status[0m
+[0m[ INFO] [1684008570.550213183]: 17 -- Idle: Do nothing[0m
+[0m[ INFO] [1684008570.560460101]: Running task 'Idle' at period 0.500000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008572.232792628, 18.578000000]: Terminating thread Idle[0m
+[0m[ INFO] [1684008572.624679231, 18.968000000]: Cleaning up task 1:Idle[0m
+[0m[ INFO] [1684008572.624722284, 18.968000000]: Task 'Idle' terminated[0m
+[0m[ INFO] [1684008572.639893200, 18.983000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008572.639990346, 18.983000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008572.640018463, 18.983000000]: Cleaning up task 2:SetStatusSync[0m
+[0m[ INFO] [1684008572.640044820, 18.983000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008572.680432841, 19.024000000]: Going to 3.10 -1.00[0m
+[0m[ INFO] [1684008572.680554669, 19.024000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008582.545538739, 28.865000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1684008582.545575016, 28.[0m[ INFO] [1684008570.271963143]: Task scheduler created: debug 1[0m
+[0m[ INFO] [1684008570.289987221]: Adding task Wait[0m
+[0m[ INFO] [1684008570.290085892]: Adding task SetStatusSync[0m
+[0m[ INFO] [1684008570.290118748]: Adding task WaitForStatusSync[0m
+[0m[ INFO] [1684008570.291129922]: Looking for tasks in /home/chroma/Documents/bugwright2-ws/bugwright_ws/src/floor_nav/../../devel/share/floor_nav/tasks[0m
+[0m[ INFO] [1684008570.294320589]: Adding task WaitForROI[0m
+[0m[ INFO] [1684008570.296936069]: Adding task WaitForCompletion[0m
+[0m[ INFO] [1684008570.299634386]: Adding task WaitForAuto[0m
+[0m[ INFO] [1684008570.302060352]: Adding task Trigger[0m
+[0m[ INFO] [1684008570.309385726]: Adding task SetManual[0m
+[0m[ INFO] [1684008570.316290765]: Adding task SetHeading[0m
+[0m[ INFO] [1684008570.318904015]: Adding task PlanTo[0m
+[0m[ INFO] [1684008570.325527927]: Adding task ActionMoveGoal[0m
+[0m[ INFO] [1684008570.329902268]: Adding task ActionMoveBase[0m
+[0m[ INFO] [1684008570.331840573]: Adding task GoToPose[0m
+[0m[ INFO] [1684008570.333400635]: Adding task GoTo[0m
+[0m[ INFO] [1684008570.334977498]: Adding task FollowLine[0m
+[0m[ INFO] [1684008570.336200777]: Adding task Clear[0m
+[0m[ INFO] [1684008570.337833547]: Adding task AlignWithTarget[0m
+[0m[ INFO] [1684008570.469223129]: Task Directory:[0m
+[0m[ INFO] [1684008570.469270166]: 0 -- ActionMoveBase: Publish an action goal for move base[0m
+[0m[ INFO] [1684008570.469296539]: 1 -- ActionMoveGoal: Reach a desired goal using move base[0m
+[0m[ INFO] [1684008570.469316360]: 2 -- AlignWithTarget: Align with a target[0m
+[0m[ INFO] [1684008570.469340002]: 3 -- Clear: Clear the screen[0m
+[0m[ INFO] [1684008570.469353168]: 4 -- FollowLine: Follow a line[0m
+[0m[ INFO] [1684008570.469364925]: 5 -- GoTo: Reach a desired destination[0m
+[0m[ INFO] [1684008570.469375930]: 6 -- GoToPose: Reach a desired destination[0m
+[0m[ INFO] [1684008570.469387326]: 7 -- PlanTo: Reach a desired destination using the path planner[0m
+[0m[ INFO] [1684008570.469407550]: 8 -- SetHeading: Reach a desired heading angle[0m
+[0m[ INFO] [1684008570.469424111]: 9 -- SetManual: Set the control mux to manual mode[0m
+[0m[ INFO] [1684008570.469436348]: 10 -- SetStatusSync: Update the current task status to be published by the environment[0m
+[0m[ INFO] [1684008570.469450137]: 11 -- Trigger: Call a trigger service[0m
+[0m[ INFO] [1684008570.469466731]: 12 -- Wait: Do nothing for a given time[0m
+[0m[ INFO] [1684008570.469501105]: 13 -- WaitForAuto: Wait for the control mux to switch to auto[0m
+[0m[ INFO] [1684008570.469523858]: 14 -- WaitForCompletion: Do nothing until a given area is completely empty[0m
+[0m[ INFO] [1684008570.469556502]: 15 -- WaitForROI: Do nothing until we reach a given destination[0m
+[0m[ INFO] [1684008570.469577325]: 16 -- WaitForStatusSync: Wait for a sync object to get the desired status[0m
+[0m[ INFO] [1684008570.469602588]: 17 -- Idle: Do nothing[0m
+[0m[ INFO] [1684008570.499198131]: Running task 'Idle' at period 0.500000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008572.277566064, 18.623000000]: Terminating thread Idle[0m
+[0m[ INFO] [1684008572.526023313, 18.870000000]: Cleaning up task 1:Idle[0m
+[0m[ INFO] [1684008572.526065664, 18.870000000]: Task 'Idle' terminated[0m
+[0m[ INFO] [1684008572.540245749, 18.885000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008572.540329506, 18.885000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008572.540362442, 18.885000000]: Cleaning up task 2:SetStatusSync[0m
+[0m[ INFO] [1684008572.540389472, 18.885000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008572.567808542, 18.912000000]: Waiting for partner 'crawler_1' to reach status 1[0m
+[0m[ INFO] [1684008572.567966183, 18.912000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008582.653033318, 28.972000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008582.653105343, 28.972000000]: Cleaning up task 3:WaitForStatusSync[0m
+[0m[ INFO] [1684008582.653127158, 28.972000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1684008582.697977745, 29.017000000]: Going to -3.10 1.00[0m
+[0m[ INFO] [1684008582.698080288, 29.017000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008602.459337918, 48.717000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1684008602.459375250, 48.717000000]: Cleaning up task 4:GoTo[0m
+[0m[ INFO] [1684008602.459445419, 48.718000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1684008602.490720073, 48.749000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008602.490781564, 48.749000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008602.490809953, 48.749000000]: Cleaning up task 5:SetStatusSync[0m
+[0m[ INFO] [1684008602.490834812, 48.749000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008602.521161138, 48.779000000]: Waiting for partner 'crawler_1' to reach status 2[0m
+[0m[ INFO] [1684008602.521285902, 48.779000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008622.684774987, 68.880000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008622.684826705, 68.880000000]: Cleaning up task 6:WaitForStatusSync[0m
+[0m[ INFO] [1684008622.684854521, 68.880000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1684008622.736120948, 68.931000000]: Going to -3.10 5.00[0m
+[0m[ INFO] [1684008622.736253140, 68.931000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008642.792169100, 88.921000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1684008642.792215701, 88.921000000]: Cleaning up task 7:GoTo[0m
+[0m[ INFO] [1684008642.792255075, 88.921000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1684008642.827293089, 88.956000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008642.827410759, 88.957000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008642.827434555, 88.957000000]: Cleaning up task 8:SetStatusSync[0m
+[0m[ INFO] [1684008642.827452522, 88.957000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008642.855395319, 88.983000000]: Waiting for partner 'crawler_1' to reach status 3[0m
+[0m[ INFO] [1684008642.855544115, 88.983000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008642.945056409, 89.073000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008642.945092889, 89.073000000]: Cleaning up task 9:WaitForStatusSync[0m
+[0m[ INFO] [1684008642.945118491, 89.073000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1684008642.981036843, 89.109000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008642.981107973, 89.109000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008642.981136492, 89.109000000]: Cleaning up task 10:SetStatusSync[0m
+[0m[ INFO] [1684008642.981163262, 89.109000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008643.021195709, 89.147000000]: Going to -3.10 3.00[0m
+[0m[ INFO] [1684008643.021388866, 89.147000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008665.604337804, 111.667000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1684008665.604390929, 111.667000000]: Cleaning up task 11:GoTo[0m
+[0m[ INFO] [1684008665.604436067, 111.667000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1684008665.627032357, 111.690000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008665.627098651, 111.690000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [168400865000000]: Cleaning up task 3:GoTo[0m
+[0m[ INFO] [1684008582.545649670, 28.865000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1684008582.581129412, 28.900000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008582.581228373, 28.900000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008582.581256511, 28.900000000]: Cleaning up task 4:SetStatusSync[0m
+[0m[ INFO] [1684008582.581282450, 28.900000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008582.608318486, 28.925000000]: Waiting for partner 'crawler_0' to reach status 1[0m
+[0m[ INFO] [1684008582.608491584, 28.925000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008602.518374423, 48.775000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008602.518412838, 48.775000000]: Cleaning up task 5:WaitForStatusSync[0m
+[0m[ INFO] [1684008602.518440698, 48.775000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1684008602.562740785, 48.820000000]: Going to 3.10 3.00[0m
+[0m[ INFO] [1684008602.562855043, 48.820000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008622.574820189, 68.770000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1684008622.574912288, 68.770000000]: Cleaning up task 6:GoTo[0m
+[0m[ INFO] [1684008622.574960075, 68.770000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1684008622.598538391, 68.794000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008622.598606891, 68.794000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008622.598632639, 68.794000000]: Cleaning up task 7:SetStatusSync[0m
+[0m[ INFO] [1684008622.598665625, 68.794000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008622.629718319, 68.825000000]: Waiting for partner 'crawler_0' to reach status 2[0m
+[0m[ INFO] [1684008622.629829143, 68.825000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008642.847024787, 88.975000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008642.847100081, 88.975000000]: Cleaning up task 8:WaitForStatusSync[0m
+[0m[ INFO] [1684008642.847132030, 88.975000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1684008642.882023843, 89.010000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008642.882100363, 89.010000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008642.882129838, 89.010000000]: Cleaning up task 9:SetStatusSync[0m
+[0m[ INFO] [1684008642.882157712, 89.010000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008642.927454394, 89.055000000]: Going to 3.10 5.00[0m
+[0m[ INFO] [1684008642.927570778, 89.055000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008652.916262814, 99.015000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1684008652.916308967, 99.015000000]: Cleaning up task 10:GoTo[0m
+[0m[ INFO] [1684008652.916367703, 99.016000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1684008652.945270376, 99.044000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008652.945370161, 99.044000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008652.945438439, 99.044000000]: Cleaning up task 11:SetStatusSync[0m
+[0m[ INFO] [1684008652.945497628, 99.044000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008652.986327778, 99.085000000]: Going to 3.10 1.00[0m
+[0m[ INFO] [1684008652.986497873, 99.085000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008685.168038792, 131.165000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1684008685.168111195, 131.165000000]: Cleaning up task 12:GoTo[0m
+[0m[ INFO8665.627129217, 111.690000000]: Cleaning up task 12:SetStatusSync[0m
+[0m[ INFO] [1684008665.627191750, 111.690000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008665.653257197, 111.716000000]: Waiting for partner 'crawler_1' to reach status 1[0m
+[0m[ INFO] [1684008665.653421209, 111.716000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008685.280191413, 131.276000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008685.280232847, 131.277000000]: Cleaning up task 13:WaitForStatusSync[0m
+[0m[ INFO] [1684008685.280256901, 131.277000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1684008685.318015455, 131.314000000]: Going to -3.10 -1.00[0m
+[0m[ INFO] [1684008685.318168321, 131.314000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008705.276563723, 151.214000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1684008705.276600517, 151.214000000]: Cleaning up task 14:GoTo[0m
+[0m[ INFO] [1684008705.276641518, 151.214000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1684008705.307055179, 151.245000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008705.307120276, 151.245000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008705.307148701, 151.245000000]: Cleaning up task 15:SetStatusSync[0m
+[0m[ INFO] [1684008705.307174717, 151.245000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008705.335694932, 151.273000000]: Waiting for partner 'crawler_1' to reach status 2[0m
+[0m[ INFO] [1684008705.335879681, 151.274000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008725.485142215, 171.374000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008725.485234719, 171.374000000]: Cleaning up task 16:WaitForStatusSync[0m
+[0m[ INFO] [1684008725.485309991, 171.374000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1684008725.534746534, 171.424000000]: Going to -3.10 -5.00[0m
+[0m[ INFO] [1684008725.534897049, 171.424000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008745.574881288, 191.415000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1684008745.574918213, 191.415000000]: Cleaning up task 17:GoTo[0m
+[0m[ INFO] [1684008745.574953320, 191.415000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1684008745.608230407, 191.448000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008745.608316747, 191.448000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008745.608345910, 191.448000000]: Cleaning up task 18:SetStatusSync[0m
+[0m[ INFO] [1684008745.608370439, 191.448000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008745.638379901, 191.478000000]: Waiting for partner 'crawler_1' to reach status 3[0m
+[0m[ INFO] [1684008745.638562544, 191.478000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008745.738598817, 191.578000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008745.738635603, 191.578000000]: Cleaning up task 19:WaitForStatusSync[0m
+[0m[ INFO] [1684008745.738667151, 191.578000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1684008745.762830213, 191.602000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008745.762897823, 191.602000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008745.762936937, 191.602000000]: Cleaning up task 20:SetStatusSync[0m
+[0m[ INFO] [1684008745.762954243, 191.602000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008745.807084225, 191.646000000]: Going to 2.90 -3.00[0m
+[0m[ INFO] [1684008745.807292131, 191.646000000]: Running task 'GoTo' at period 0.010000 main 1 time] [1684008685.168226513, 131.165000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1684008685.198783314, 131.196000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008685.198851491, 131.196000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008685.198878051, 131.196000000]: Cleaning up task 13:SetStatusSync[0m
+[0m[ INFO] [1684008685.198899886, 131.196000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008685.227816524, 131.225000000]: Waiting for partner 'crawler_0' to reach status 1[0m
+[0m[ INFO] [1684008685.227978461, 131.225000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008705.347347433, 151.285000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008705.347383814, 151.285000000]: Cleaning up task 14:WaitForStatusSync[0m
+[0m[ INFO] [1684008705.347403314, 151.285000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1684008705.390062805, 151.328000000]: Going to 3.10 -3.00[0m
+[0m[ INFO] [1684008705.390247761, 151.328000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008725.378173420, 171.268000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1684008725.378206251, 171.268000000]: Cleaning up task 15:GoTo[0m
+[0m[ INFO] [1684008725.378237265, 171.268000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1684008725.405507007, 171.295000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008725.405567902, 171.295000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008725.405589216, 171.295000000]: Cleaning up task 16:SetStatusSync[0m
+[0m[ INFO] [1684008725.405605839, 171.295000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008725.431926376, 171.321000000]: Waiting for partner 'crawler_0' to reach status 2[0m
+[0m[ INFO] [1684008725.432100511, 171.321000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008745.641285588, 191.481000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008745.641328922, 191.481000000]: Cleaning up task 17:WaitForStatusSync[0m
+[0m[ INFO] [1684008745.641357557, 191.481000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1684008745.676618111, 191.516000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008745.676680930, 191.516000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008745.676709171, 191.516000000]: Cleaning up task 18:SetStatusSync[0m
+[0m[ INFO] [1684008745.676735280, 191.516000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008745.717292144, 191.556000000]: Going to 9.10 -5.00[0m
+[0m[ INFO] [1684008745.717459053, 191.556000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008780.460445745, 226.168000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1684008780.460488964, 226.168000000]: Cleaning up task 19:GoTo[0m
+[0m[ INFO] [1684008780.460538493, 226.168000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1684008780.487817886, 226.195000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008780.487896364, 226.195000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008780.487929930, 226.195000000]: Cleaning up task 20:SetStatusSync[0m
+[0m[ INFO] [1684008780.487962812, 226.195000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008780.516851086, 226.223000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008780.516949242, 226.224000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008780.516987270, 226.224000000]: Cleaning up task 21:SetStatusSync[0m
+[0m[ INFO] [1684008780.517017350, 226.224000000]: Task 'Setout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008783.276384577, 228.969000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1684008783.276428918, 228.969000000]: Cleaning up task 21:GoTo[0m
+[0m[ INFO] [1684008783.276507936, 228.969000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1684008783.316951505, 229.009000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008783.317032016, 229.009000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008783.317065073, 229.009000000]: Cleaning up task 22:SetStatusSync[0m
+[0m[ INFO] [1684008783.317103693, 229.009000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008783.347537676, 229.037000000]: Waiting for partner 'crawler_1' to reach status 1[0m
+[0m[ INFO] [1684008783.347754303, 229.037000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008857.270433298, 302.678000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008857.270496026, 302.678000000]: Cleaning up task 23:WaitForStatusSync[0m
+[0m[ INFO] [1684008857.270536541, 302.678000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1684008857.308886606, 302.716000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008857.308999837, 302.716000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008857.309065848, 302.716000000]: Cleaning up task 24:SetStatusSync[0m
+[0m[ INFO] [1684008857.309129567, 302.716000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008857.334649396, 302.741000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008857.334739378, 302.742000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008857.334772544, 302.742000000]: Cleaning up task 25:SetStatusSync[0m
+[0m[ INFO] [1684008857.334807158, 302.742000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008857.378671917, 302.785000000]: Going to 3.00 -3.00[0m
+[0m[ INFO] [1684008857.378830914, 302.785000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008858.012735676, 303.415000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1684008858.012777008, 303.415000000]: Cleaning up task 26:GoTo[0m
+[0m[ INFO] [1684008858.012808528, 303.415000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1684008858.053738776, 303.455000000]: Waiting for partner 'crawler_1' to reach status 1[0m
+[0m[ INFO] [1684008858.053944214, 303.455000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008858.054043926, 303.455000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008858.054083036, 303.455000000]: Cleaning up task 27:WaitForStatusSync[0m
+[0m[ INFO] [1684008858.054114179, 303.455000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1684008858.094507143, 303.492000000]: Going to -1.00 -3.10[0m
+[0m[ INFO] [1684008858.094722357, 303.492000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008887.482235953, 332.762000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1684008887.482331361, 332.762000000]: Cleaning up task 28:GoTo[0m
+[0m[ INFO] [1684008887.482433690, 332.762000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1684008887.511667045, 332.791000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008887.511741757, 332.791000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008887.511775387, 332.791000000]: Cleaning up task 29:SetStatusSync[0m
+[0m[ INFO] [1684008887.511799220, 332.791000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008887.539913156, 332.819000000]: Waiting for partner 'crawler_1' to reach status 2[0m
+[0m[ INFO] [1684008887.540071858, 332.819000000]: Running task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1684008780.543236476, 226.249000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008780.543365429, 226.249000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008780.543423985, 226.250000000]: Cleaning up task 22:SetStatusSync[0m
+[0m[ INFO] [1684008780.543457734, 226.250000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008780.588179729, 226.294000000]: Going to 5.00 3.00[0m
+[0m[ INFO] [1684008780.588467944, 226.295000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008834.876635518, 280.365000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1684008834.876680521, 280.365000000]: Cleaning up task 23:GoTo[0m
+[0m[ INFO] [1684008834.876719118, 280.365000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1684008834.931677688, 280.419000000]: Going to 1.00 3.10[0m
+[0m[ INFO] [1684008834.931916612, 280.420000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008857.160883792, 302.571000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1684008857.160923207, 302.571000000]: Cleaning up task 24:GoTo[0m
+[0m[ INFO] [1684008857.160978912, 302.571000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1684008857.191714875, 302.600000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008857.191807167, 302.600000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008857.191843523, 302.600000000]: Cleaning up task 25:SetStatusSync[0m
+[0m[ INFO] [1684008857.191871620, 302.600000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008857.220677461, 302.628000000]: Waiting for partner 'crawler_0' to reach status 1[0m
+[0m[ INFO] [1684008857.220867636, 302.628000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008887.598971319, 332.878000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008887.599023147, 332.878000000]: Cleaning up task 26:WaitForStatusSync[0m
+[0m[ INFO] [1684008887.599065119, 332.878000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1684008887.640620166, 332.919000000]: Going to -3.00 3.10[0m
+[0m[ INFO] [1684008887.640832455, 332.919000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008907.721169659, 352.919000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1684008907.721210426, 352.919000000]: Cleaning up task 27:GoTo[0m
+[0m[ INFO] [1684008907.721253359, 352.919000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1684008907.742602010, 352.939000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008907.742673932, 352.939000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008907.742704321, 352.939000000]: Cleaning up task 28:SetStatusSync[0m
+[0m[ INFO] [1684008907.742737042, 352.939000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008907.773963842, 352.970000000]: Waiting for partner 'crawler_0' to reach status 2[0m
+[0m[ INFO] [1684008907.774132832, 352.970000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008927.969823735, 373.080000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008927.969867512, 373.080000000]: Cleaning up task 29:WaitForStatusSync[0m
+[0m[ INFO] [1684008927.969898974, 373.080000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1684008928.006924119, 373.116000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008928.006995844, 373.117000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008928.007030455, 373.117000000]: Cleaning up task 30:SetStatusSync[0m
+[0m[ INFO] [1684008928.007058601, 373.117000000]: Task 'SetStatStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008907.782874028, 352.979000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008907.782924886, 352.979000000]: Cleaning up task 30:WaitForStatusSync[0m
+[0m[ INFO] [1684008907.782946230, 352.979000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1684008907.832987717, 353.028000000]: Going to -5.00 -3.10[0m
+[0m[ INFO] [1684008907.833222730, 353.028000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008927.905735034, 373.018000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1684008927.905776088, 373.018000000]: Cleaning up task 31:GoTo[0m
+[0m[ INFO] [1684008927.905835052, 373.018000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1684008927.945603283, 373.057000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008927.945726745, 373.058000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008927.945758028, 373.058000000]: Cleaning up task 32:SetStatusSync[0m
+[0m[ INFO] [1684008927.945776407, 373.058000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008927.976730974, 373.087000000]: Waiting for partner 'crawler_1' to reach status 3[0m
+[0m[ INFO] [1684008927.976935484, 373.087000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008928.068893476, 373.177000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008928.068944006, 373.177000000]: Cleaning up task 33:WaitForStatusSync[0m
+[0m[ INFO] [1684008928.068982809, 373.177000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1684008928.104072216, 373.212000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008928.104180932, 373.213000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008928.104219792, 373.213000000]: Cleaning up task 34:SetStatusSync[0m
+[0m[ INFO] [1684008928.104246691, 373.213000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008928.147229287, 373.255000000]: Going to -3.00 -3.10[0m
+[0m[ INFO] [1684008928.147405870, 373.255000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008950.242604551, 395.265000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1684008950.242641806, 395.265000000]: Cleaning up task 35:GoTo[0m
+[0m[ INFO] [1684008950.242679495, 395.265000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1684008950.276705144, 395.299000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008950.276784172, 395.299000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008950.276807975, 395.299000000]: Cleaning up task 36:SetStatusSync[0m
+[0m[ INFO] [1684008950.276833373, 395.299000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008950.305741198, 395.328000000]: Waiting for partner 'crawler_1' to reach status 1[0m
+[0m[ INFO] [1684008950.305938674, 395.328000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008969.126697934, 414.079000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008969.126782101, 414.079000000]: Cleaning up task 37:WaitForStatusSync[0m
+[0m[ INFO] [1684008969.126849694, 414.079000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1684008969.166318747, 414.118000000]: Going to 1.00 -3.10[0m
+[0m[ INFO] [1684008969.166472724, 414.118000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008989.086811757, 433.968000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1684008989.086853405, 433.968000000]: Cleaning up task 38:GoTo[0m
+[0m[ INFO] [1684008989.086919090, 433.968000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1684008989.130407786, 434.011000000]: RunniusSync' terminated[0m
+[0m[ INFO] [1684008928.053945704, 373.162000000]: Going to -5.00 3.10[0m
+[0m[ INFO] [1684008928.054194103, 373.162000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008938.134154007, 383.212000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1684008938.134195458, 383.212000000]: Cleaning up task 31:GoTo[0m
+[0m[ INFO] [1684008938.134245835, 383.212000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1684008938.154795309, 383.233000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008938.154867796, 383.233000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008938.154912245, 383.233000000]: Cleaning up task 32:SetStatusSync[0m
+[0m[ INFO] [1684008938.154950105, 383.233000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008938.201510688, 383.278000000]: Going to -1.00 3.10[0m
+[0m[ INFO] [1684008938.201719901, 383.278000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008969.065341882, 414.019000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1684008969.065389171, 414.019000000]: Cleaning up task 33:GoTo[0m
+[0m[ INFO] [1684008969.065439168, 414.019000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1684008969.095656766, 414.049000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008969.095726961, 414.049000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008969.095750218, 414.049000000]: Cleaning up task 34:SetStatusSync[0m
+[0m[ INFO] [1684008969.095779251, 414.049000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008969.127579671, 414.080000000]: Waiting for partner 'crawler_0' to reach status 1[0m
+[0m[ INFO] [1684008969.127734933, 414.080000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008989.200587762, 434.081000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008989.200650546, 434.081000000]: Cleaning up task 35:WaitForStatusSync[0m
+[0m[ INFO] [1684008989.200714239, 434.081000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1684008989.256566549, 434.136000000]: Going to 3.00 3.10[0m
+[0m[ INFO] [1684008989.256720060, 434.136000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684009009.374986618, 454.166000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1684009009.375085064, 454.166000000]: Cleaning up task 36:GoTo[0m
+[0m[ INFO] [1684009009.375319034, 454.167000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1684009009.402467188, 454.193000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684009009.402540040, 454.194000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684009009.402578416, 454.194000000]: Cleaning up task 37:SetStatusSync[0m
+[0m[ INFO] [1684009009.402614001, 454.194000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684009009.429854944, 454.220000000]: Waiting for partner 'crawler_0' to reach status 2[0m
+[0m[ INFO] [1684009009.430016422, 454.220000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684009029.675958020, 474.381000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684009029.675995420, 474.381000000]: Cleaning up task 38:WaitForStatusSync[0m
+[0m[ INFO] [1684009029.676027405, 474.381000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1684009029.707603646, 474.412000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684009029.707688305, 474.412000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684009029.707730670, 474.412000000]: Cleaning up task 39:SetStatusSync[0m
+[0m[ INFO] [1684009029.707760111, 474.412000000]: Task 'SetStatusS[INFO] [1684008571.192307, 17.540000]: Creating link to services on node task_server
+[INFO] [1684008572.220057, 18.566000]: Mission connected to server: task_server
+[INFO] [1684008572.227482, 18.573000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008572.228958, 18.574000]: Starting task SetStatusSync
+[INFO] [1684008572.645997, 18.989000]: task_server: Starting task GoTo in foreground
+[INFO] [1684008572.647827, 18.991000]: Starting task GoTo
+[INFO] [1684008582.562499, 28.882000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008582.563989, 28.883000]: Starting task SetStatusSync
+[INFO] [1684008582.587920, 28.907000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1684008582.589590, 28.908000]: Starting task WaitForStatusSync
+[INFO] [1684008602.528325, 48.786000]: task_server: Starting task GoTo in foreground
+[INFO] [1684008602.530045, 48.788000]: Starting task GoTo
+[INFO] [1684008622.581449, 68.777000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008622.583076, 68.778000]: Starting task SetStatusSync
+[INFO] [1684008622.607033, 68.802000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1684008622.608792, 68.804000]: Starting task WaitForStatusSync
+[INFO] [1684008642.862475, 88.991000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008642.864035, 88.992000]: Starting task SetStatusSync
+[INFO] [1684008642.889983, 89.018000]: task_server: Starting task GoTo in foreground
+[INFO] [1684008642.891752, 89.020000]: Starting task GoTo
+[INFO] [1684008652.927562, 99.027000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008652.929429, 99.028000]: Starting task SetStatusSync
+[INFO] [1684008652.953869, 99.053000]: task_server: Starting task GoTo in foreground
+[INFO] [1684008652.955679, 99.054000]: Starting task GoTo
+[INFO] [1684008685.181472, 131.178000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008685.183108, 131.180000]: Starting task SetStatusSync
+[INFO] [1684008685.207434, 131.204000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1684008685.209074, 131.206000]: Starting task WaitForStatusSync
+[INFO] [1684008705.357337, 151.295000]: task_server: Starting task GoTo in foreground
+[INFO] [1684008705.359109, 151.297000]: Starting task GoTo
+[INFO] [1684008725.386355, 171.276000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008725.387906, 171.277000]: Starting task SetStatusSync
+[INFO] [1684008725.412452, 171.302000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1684008725.413968, 171.303000]: Starting task WaitForStatusSync
+[INFO] [1684008745.659580, 191.499000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008745.660991, 191.500000]: Starting task SetStatusSync
+[INFO] [1684008745.685274, 191.525000]: task_server: Starting task GoTo in foreground
+[INFO] [1684008745.686812, 191.526000]: Starting task GoTo
+[INFO] [1684008780.467115, 226.174000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008780.469161, 226.176000]: Starting task SetStatusSync
+[INFO] [1684008780.494239, 226.201000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008780.496113, 226.203000]: Starting task SetStatusSync
+[INFO] [1684008780.522326, 226.229000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008780.524098, 226.231000]: Starting task SetStatusSync
+[INFO] [1684008780.548664, 226.255000]: task_server: Starting task GoTo in foreground
+[INFO] [1684008780.550333, 226.256000]: Starting task GoTo
+[INFO] [1684008834.894554, 280.383000]: task_server: Starting task GoTo in foreground
+[INFO] [1684008834.896278, 280.384000]: Starting task GoTo
+[INFO] [1684008857.171039, 302.580000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008857.173195, 302.582000]: Starting task SetStatusSync
+[INFO] [1684008857.197507, 302.606000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1684008857.199246, 302.607000]: Starting task WaitForStatusSync
+[INFO] [1684008887.601089, 332.879000]: task_server: Starting task GoTo in foreground
+[INFO] [1684008887.603776, 332.882000]: Starting task GoTo
+[INFO] [1684008907.722489, 352.920000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008907.724420, 352.922000]: Starting task SetStatusSync
+[INFO] [1684008907.749809, 352.946000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1684008907.751656, 352.948000]: Starting task WaitForStatusSync
+[INFO] [1684008927.984756, 373.095000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008927.986826, 373.096000]: Starting task SetStatusSync
+[INFO] [1684008928.012122, 373.122000]: task_server: Starting task GoTo in foreground
+[INFO] [1684008928.013921, 373.123000]: Starting task GoTo
+[INFO] [1684008938.134763, 383.212000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008938.136626, 383.214000]: Starting task SetStatusSync
+[INFO] [1684008938.161463, 383.239000]: task_server: Starting task GoTo in foreground
+[INFO] [1684008938.163593, 383.240000]: Starting task GoTo
+[INFO] [1684008969.075809, 414.028000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008969.077776, 414.031000]: Starting task SetStatusSync
+[INFO] [1684008969.102317, 414.055000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1684008969.104207, 414.057000]: Starting task WaitForStatusSync
+[INFO] [1684008989.219687, 434.100000]: task_server: Starting task GoTo in foreground
+[INFO] [1684008989.221587, 434.102000]: Starting task GoTo
+[INFO] [1684009009.378781, 454.170000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684009009.380584, 454.172000]: Starting task SetStatusSync
+[INFO] [1684009009.407254, 454.198000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1684009009.409166, 454.200000]: Starting task WaitForStatusSync
+[INFO] [1684009029.686343, 474.391000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684009029.688528, 474.393000]: Starting task SetStatusSync
+[INFO] [1684009029.713542, 474.418000]: task_server: Starting task GoTo in foreground
+[INFO] [1684009029.716128, 474.420000]: Starting task GoTo
+[INFO] [1684009065.009458, 509.575000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684009065.012029, 509.576000]: Starting task SetStatusSync
+[INFO] [1684009065.038563, 509.604000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684009065.040788, 509.606000]: Starting task SetStatusSync
+[INFO] [1684009065.066660, 509.631000]: Mission completed in 491.058 seconds
+ync' terminated[0m
+[0m[ INFO] [1684009029.754078936, 474.458000000]: Going to 5.00 9.10[0m
+[0m[ INFO] [1684009029.754298682, 474.459000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684009065.002875899, 509.569000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1684009065.002917736, 509.569000000]: Cleaning up task 40:GoTo[0m
+[0m[ INFO] [1684009065.002955388, 509.569000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1684009065.032006017, 509.597000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684009065.032084209, 509.597000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684009065.032119175, 509.597000000]: Cleaning up task 41:SetStatusSync[0m
+[0m[ INFO] [1684009065.032156930, 509.597000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684009065.059423333, 509.624000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684009065.059505954, 509.624000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684009065.059541279, 509.624000000]: Cleaning up task 42:SetStatusSync[0m
+[0m[ INFO] [1684009065.059571097, 509.624000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684009065.569970930, 510.134000000]: Running task 'Idle' at period 0.500000 main 1 timeout -1.000000 periodic 1[0m
+ng task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684008989.130543028, 434.011000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684008989.130600978, 434.011000000]: Cleaning up task 39:SetStatusSync[0m
+[0m[ INFO] [1684008989.130643506, 434.011000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684008989.158443961, 434.039000000]: Waiting for partner 'crawler_1' to reach status 2[0m
+[0m[ INFO] [1684008989.158659732, 434.039000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684009009.490173706, 454.280000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684009009.490216454, 454.280000000]: Cleaning up task 40:WaitForStatusSync[0m
+[0m[ INFO] [1684009009.490255517, 454.280000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1684009009.528665166, 454.318000000]: Going to 5.00 -3.10[0m
+[0m[ INFO] [1684009009.528877606, 454.318000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684009029.613010131, 474.318000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1684009029.613058682, 474.318000000]: Cleaning up task 41:GoTo[0m
+[0m[ INFO] [1684009029.613121591, 474.318000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1684009029.648189478, 474.352000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684009029.648260599, 474.353000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684009029.648286016, 474.353000000]: Cleaning up task 42:SetStatusSync[0m
+[0m[ INFO] [1684009029.648308392, 474.353000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1684009029.679848009, 474.384000000]: Waiting for partner 'crawler_1' to reach status 3[0m
+[0m[ INFO] [1684009029.680027397, 474.385000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1684009029.770415052, 474.475000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1684009029.770489372, 474.475000000]: Cleaning up task 43:WaitForStatusSync[0m
+[0m[ INFO] [1684009029.770591063, 474.475000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1684009029.822008922, 474.526000000]: Going to 3.00 2.90[0m
+[0m[ INFO] [1684009029.822181200, 474.526000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[INFO] [1684008571.236043, 17.579000]: Creating link to services on node task_server
+[INFO] [1684008572.264052, 18.610000]: Mission connected to server: task_server
+[INFO] [1684008572.271305, 18.616000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008572.272848, 18.618000]: Starting task SetStatusSync
+[INFO] [1684008572.546768, 18.891000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1684008572.548414, 18.893000]: Starting task WaitForStatusSync
+[INFO] [1684008582.664921, 28.984000]: task_server: Starting task GoTo in foreground
+[INFO] [1684008582.666388, 28.985000]: Starting task GoTo
+[INFO] [1684008602.472715, 48.731000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008602.474259, 48.732000]: Starting task SetStatusSync
+[INFO] [1684008602.498244, 48.756000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1684008602.499828, 48.758000]: Starting task WaitForStatusSync
+[INFO] [1684008622.702172, 68.897000]: task_server: Starting task GoTo in foreground
+[INFO] [1684008622.703820, 68.898000]: Starting task GoTo
+[INFO] [1684008642.809032, 88.938000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008642.810822, 88.940000]: Starting task SetStatusSync
+[INFO] [1684008642.835048, 88.964000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1684008642.836731, 88.966000]: Starting task WaitForStatusSync
+[INFO] [1684008642.961341, 89.089000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008642.963176, 89.090000]: Starting task SetStatusSync
+[INFO] [1684008642.987618, 89.115000]: task_server: Starting task GoTo in foreground
+[INFO] [1684008642.989334, 89.117000]: Starting task GoTo
+[INFO] [1684008665.606824, 111.670000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008665.608414, 111.671000]: Starting task SetStatusSync
+[INFO] [1684008665.632903, 111.695000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1684008665.634508, 111.697000]: Starting task WaitForStatusSync
+[INFO] [1684008685.283208, 131.279000]: task_server: Starting task GoTo in foreground
+[INFO] [1684008685.284836, 131.280000]: Starting task GoTo
+[INFO] [1684008705.287690, 151.225000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008705.289332, 151.227000]: Starting task SetStatusSync
+[INFO] [1684008705.313624, 151.251000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1684008705.315302, 151.253000]: Starting task WaitForStatusSync
+[INFO] [1684008725.500474, 171.389000]: task_server: Starting task GoTo in foreground
+[INFO] [1684008725.501988, 171.391000]: Starting task GoTo
+[INFO] [1684008745.590773, 191.430000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008745.592611, 191.432000]: Starting task SetStatusSync
+[INFO] [1684008745.617518, 191.457000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1684008745.619545, 191.459000]: Starting task WaitForStatusSync
+[INFO] [1684008745.744356, 191.583000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008745.746042, 191.584000]: Starting task SetStatusSync
+[INFO] [1684008745.772126, 191.611000]: task_server: Starting task GoTo in foreground
+[INFO] [1684008745.773885, 191.613000]: Starting task GoTo
+[INFO] [1684008783.294492, 228.987000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008783.296513, 228.989000]: Starting task SetStatusSync
+[INFO] [1684008783.321652, 229.013000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1684008783.323504, 229.015000]: Starting task WaitForStatusSync
+[INFO] [1684008857.285964, 302.693000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008857.287955, 302.693000]: Starting task SetStatusSync
+[INFO] [1684008857.313260, 302.720000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008857.314807, 302.721000]: Starting task SetStatusSync
+[INFO] [1684008857.340077, 302.747000]: task_server: Starting task GoTo in foreground
+[INFO] [1684008857.341943, 302.749000]: Starting task GoTo
+[INFO] [1684008858.029992, 303.432000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1684008858.031993, 303.434000]: Starting task WaitForStatusSync
+[INFO] [1684008858.057664, 303.459000]: task_server: Starting task GoTo in foreground
+[INFO] [1684008858.059691, 303.461000]: Starting task GoTo
+[INFO] [1684008887.487759, 332.768000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008887.489505, 332.769000]: Starting task SetStatusSync
+[INFO] [1684008887.515088, 332.794000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1684008887.517565, 332.796000]: Starting task WaitForStatusSync
+[INFO] [1684008907.790908, 352.987000]: task_server: Starting task GoTo in foreground
+[INFO] [1684008907.792890, 352.988000]: Starting task GoTo
+[INFO] [1684008927.925295, 373.037000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008927.927094, 373.039000]: Starting task SetStatusSync
+[INFO] [1684008927.953429, 373.065000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1684008927.955893, 373.067000]: Starting task WaitForStatusSync
+[INFO] [1684008928.081136, 373.189000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008928.083482, 373.191000]: Starting task SetStatusSync
+[INFO] [1684008928.109229, 373.218000]: task_server: Starting task GoTo in foreground
+[INFO] [1684008928.110781, 373.219000]: Starting task GoTo
+[INFO] [1684008950.254790, 395.277000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008950.257169, 395.279000]: Starting task SetStatusSync
+[INFO] [1684008950.283049, 395.305000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1684008950.284864, 395.307000]: Starting task WaitForStatusSync
+[INFO] [1684008969.129704, 414.082000]: task_server: Starting task GoTo in foreground
+[INFO] [1684008969.131371, 414.083000]: Starting task GoTo
+[INFO] [1684008989.106690, 433.987000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684008989.108889, 433.988000]: Starting task SetStatusSync
+[INFO] [1684008989.134408, 434.015000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1684008989.136582, 434.017000]: Starting task WaitForStatusSync
+[INFO] [1684009009.490832, 454.280000]: task_server: Starting task GoTo in foreground
+[INFO] [1684009009.493221, 454.283000]: Starting task GoTo
+[INFO] [1684009029.628225, 474.333000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1684009029.630117, 474.335000]: Starting task SetStatusSync
+[INFO] [1684009029.654764, 474.359000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1684009029.656823, 474.361000]: Starting task WaitForStatusSync
+[INFO] [1684009029.782342, 474.486000]: task_server: Starting task GoTo in foreground
+[INFO] [1684009029.784280, 474.488000]: Starting task GoTo
+Traceback (most recent call last):
+  File "/home/chroma/Documents/bugwright2-ws/bugwright_ws/src/floor_nav/missions/ski_nordique.py", line 147, in <module>
+    if crawler_id == 0: tc.GoTo(goal_x=grid_width, goal_y=j+d+overlap, max_velocity=vel, relative=False)
+  File "/home/chroma/Documents/bugwright2-ws/bugwright_ws/src/ros_task_manager/src/task_manager_lib/src/task_manager_lib/TaskClient.py", line 212, in __call__
+    res = self.client.startTaskAndWait(paramdict,argv=argx)
+  File "/home/chroma/Documents/bugwright2-ws/bugwright_ws/src/ros_task_manager/src/task_manager_lib/src/task_manager_lib/TaskClient.py", line 361, in startTaskAndWait
+    return self.waitTask(tid)
+  File "/home/chroma/Documents/bugwright2-ws/bugwright_ws/src/ros_task_manager/src/task_manager_lib/src/task_manager_lib/TaskClient.py", line 517, in waitTask
+    return self.waitTaskList([id],True,False)
+  File "/home/chroma/Documents/bugwright2-ws/bugwright_ws/src/ros_task_manager/src/task_manager_lib/src/task_manager_lib/TaskClient.py", line 505, in waitTaskList
+    raise TaskException("%s: Aborting due to ROS shutdown"%self.server_node);
+task_manager_lib.TaskClient.TaskException: 'task_server: Aborting due to ROS shutdown'
+[31m================================================================================REQUIRED process [crawler_1/mission-7] has died!
+process has finished cleanly
+log file: /home/chroma/.ros/log/05544696-f1ca-11ed-9003-e5e619360a76/crawler_1-mission-7*.log
+Initiating shutdown!
+================================================================================[0m
+... logging to /home/chroma/.ros/log/05544696-f1ca-11ed-9003-e5e619360a76/roslaunch-chroma-HP-ProBook-650-G2-129565.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/chroma/Documents/bugwright2-ws/bugwright_ws/src/my_sim/launch/crawler_navigation_nospawn.launch
+[1mstarted roslaunch server http://chroma-HP-ProBook-650-G2:41947/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /crawler_0/axis_angular: 0
+ * /crawler_0/axis_linear: 1
+ * /crawler_0/joystick_control/deadzone: 0.12
+ * /crawler_0/joystick_control/dev: /dev/input/js1
+ * /crawler_0/mission/crawler_id: 0
+ * /crawler_0/mission/crawlers_distance: 6.0
+ * /crawler_0/mission/cruise_velocity: 0.7
+ * /crawler_0/mission/delta: 5.0
+ * /crawler_0/mission/grid_height: 6.0
+ * /crawler_0/mission/grid_resolution: 0.05
+ * /crawler_0/mission/grid_width: 6.0
+ * /crawler_0/mission/height: 6.0
+ * /crawler_0/mission/investigation_velocity: 0.2
+ * /crawler_0/mission/n_points: 4
+ * /crawler_0/mission/overlap: 0.1
+ * /crawler_0/mission/period: 0.01
+ * /crawler_0/mission/scale: 2.0
+ * /crawler_0/mission/server: task_server
+ * /crawler_0/mission/stride_size: 2.0
+ * /crawler_0/mission/velocity: 0.2
+ * /crawler_0/mission/width: 6.0
+ * /crawler_0/scale_angular: 1.0
+ * /crawler_0/scale_linear: 1.0
+ * /crawler_0/task_server/auto_topic: /crawler_0/cmd_vel
+ * /crawler_0/task_server/base_frame: /crawler_0/base_f...
+ * /crawler_0/task_server/id: 0
+ * /crawler_0/task_server/joystick_topic: /crawler_0/teleop...
+ * /crawler_0/task_server/lib_path: /home/chroma/Docu...
+ * /crawler_0/task_server/my_id: 0
+ * /crawler_0/task_server/my_name: crawler_0
+ * /crawler_0/task_server/reference_frame: /world
+ * /crawler_1/axis_angular: 2
+ * /crawler_1/axis_linear: 3
+ * /crawler_1/joystick_control/deadzone: 0.12
+ * /crawler_1/joystick_control/dev: /dev/input/js1
+ * /crawler_1/mission/crawler_id: 1
+ * /crawler_1/mission/crawlers_distance: 6.0
+ * /crawler_1/mission/cruise_velocity: 0.7
+ * /crawler_1/mission/delta: 5.0
+ * /crawler_1/mission/grid_height: 6.0
+ * /crawler_1/mission/grid_resolution: 0.05
+ * /crawler_1/mission/grid_width: 6.0
+ * /crawler_1/mission/height: 6.0
+ * /crawler_1/mission/investigation_velocity: 0.2
+ * /crawler_1/mission/n_points: 4
+ * /crawler_1/mission/overlap: 0.1
+ * /crawler_1/mission/period: 0.01
+ * /crawler_1/mission/scale: 2.0
+ * /crawler_1/mission/server: task_server
+ * /crawler_1/mission/stride_size: 2.0
+ * /crawler_1/mission/velocity: 0.2
+ * /crawler_1/mission/width: 6.0
+ * /crawler_1/scale_angular: 1.0
+ * /crawler_1/scale_linear: 1.0
+ * /crawler_1/task_server/auto_topic: /crawler_1/cmd_vel
+ * /crawler_1/task_server/base_frame: /crawler_1/base_f...
+ * /crawler_1/task_server/id: 1
+ * /crawler_1/task_server/joystick_topic: /crawler_1/teleop...
+ * /crawler_1/task_server/lib_path: /home/chroma/Docu...
+ * /crawler_1/task_server/my_id: 1
+ * /crawler_1/task_server/my_name: crawler_1
+ * /crawler_1/task_server/reference_frame: /world
+ * /rosdistro: noetic
+ * /rosversion: 1.16.0
+
+NODES
+  /crawler_0/
+    cmd_mux (topic_tools/mux)
+    joystick_control (joy/joy_node)
+    mission (floor_nav/ski_nordique.py)
+    task_server (floor_nav/task_server)
+    teleop (joystick_control/teleop_joy)
+  /crawler_1/
+    cmd_mux (topic_tools/mux)
+    joystick_control (joy/joy_node)
+    mission (floor_nav/ski_nordique.py)
+    task_server (floor_nav/task_server)
+    teleop (joystick_control/teleop_joy)
+
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/chroma/Documents/bugwright2-ws/bugwright_ws/src/my_sim/launch/crawler_navigation_nospawn.launch http://localhost:11311
+[1mprocess[crawler_0/task_server-1]: started with pid [129586][0m
+[1mprocess[crawler_0/mission-2]: started with pid [129587][0m
+[1mprocess[crawler_0/joystick_control-3]: started with pid [129588][0m
+[1mprocess[crawler_0/teleop-4]: started with pid [129589][0m
+[1mprocess[crawler_0/cmd_mux-5]: started with pid [129594][0m
+[1mprocess[crawler_1/task_server-6]: started with pid [129600][0m
+[1mprocess[crawler_1/mission-7]: started with pid [129602][0m
+[1mprocess[crawler_1/joystick_control-8]: started with pid [129608][0m
+[1mprocess[crawler_1/teleop-9]: started with pid [129609][0m
+[1mprocess[crawler_1/cmd_mux-10]: started with pid [129615][0m
+[crawler_1/cmd_mux-10] killing on exit
+[crawler_1/joystick_control-8] killing on exit
+[crawler_1/teleop-9] killing on exit
+[crawler_1/task_server-6] killing on exit
+[crawler_0/cmd_mux-5] killing on exit
+[crawler_0/task_server-1] killing on exit
+[crawler_1/mission-7] killing on exit
+[crawler_0/teleop-4] killing on exit
+[crawler_0/joystick_control-3] killing on exit
+[crawler_0/mission-2] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m

@@ -1,0 +1,139 @@
+warning: redefining global symbol: pi
+when processing file: /home/chroma/Documents/bugwright2-ws/bugwright_ws/src/my_sim/models/CrawlerUGW/crawler.xacro
+warning: redefining global symbol: pi
+when processing file: /home/chroma/Documents/bugwright2-ws/bugwright_ws/src/my_sim/models/CrawlerUGW/crawler.xacro
+[0m[ INFO] [1683641689.303437161]: Finished loading Gazebo ROS API Plugin.[0m
+[0m[ INFO] [1683641689.304910366]: waitForService: Service [/gazebo/set_physics_properties] has not been advertised, waiting...[0m
+[0m[ INFO] [1683641689.841988480]: waitForService: Service [/gazebo/set_physics_properties] is now available.[0m
+[0m[ INFO] [1683641689.867613415, 0.014000000]: Physics dynamic reconfigure ready.[0m
+[0m[ INFO] [1683641690.798299779, 0.158000000]: Camera Plugin: Using the 'robotNamespace' param: '/'[0m
+[0m[ INFO] [1683641690.801211588, 0.158000000]: Camera Plugin (ns = /)  <tf_prefix_>, set to ""[0m
+[0m[ INFO] [1683641690.809998619, 0.158000000]: <robotNamespace> set to: //[0m
+[0m[ INFO] [1683641690.810036256, 0.158000000]: <topicName> set to: /crawler0/imu[0m
+[0m[ INFO] [1683641690.810060035, 0.158000000]: <frameName> set to: crawler_0/base_link[0m
+[0m[ INFO] [1683641690.810098204, 0.158000000]: <updateRateHZ> set to: 10[0m
+[0m[ INFO] [1683641690.810162340, 0.158000000]: <gaussianNoise> set to: 0[0m
+[0m[ INFO] [1683641690.810228335, 0.158000000]: <xyzOffset> set to: 0 0 0[0m
+[0m[ INFO] [1683641690.810278409, 0.158000000]: <rpyOffset> set to: 0 -0 0[0m
+[0m[ INFO] [1683641690.825436151, 0.158000000]: NS UWBe0 UwbPlugin::Load crawler0 Tag 0 Publish TF 1[0m
+NS UWBe0 Uwb topic: uwb
+[0m[ INFO] [1683641690.826364496, 0.158000000]: NS TAG0 UwbPlugin::Load crawler0 Tag 1 Publish TF 0[0m
+NS TAG0 Uwb topic: crawler0/uwb_sim
+[33m[ WARN] [1683641690.839055388, 0.158000000]: DiffDrive(ns = //): missing <rosDebugLevel> default is na[0m
+[33m[ WARN] [1683641690.840107162, 0.158000000]: DiffDrive(ns = //): missing <wheelAcceleration> default is 0[0m
+[33m[ WARN] [1683641690.840140676, 0.158000000]: DiffDrive(ns = //): missing <wheelTorque> default is 5[0m
+Warning: TF_REPEATED_DATA ignoring data with redundant timestamp for frame crawler_0/base_footprint0 at time 0.218000 according to authority /gazebo
+         at line 278 in /tmp/binarydeb/ros-noetic-tf2-0.7.6/src/buffer_core.cpp
+Warning: TF_REPEATED_DATA ignoring data with redundant timestamp for frame crawler_0/base_footprint0 at time 0.218000 according to authority /gazebo
+         at line 278 in /tmp/binarydeb/ros-noetic-tf2-0.7.6/src/buffer_core.cpp
+[31m[ERROR] [1683641691.395642138, 0.558000000]: Tried to advertise a service that is already advertised in this node [/IFM_ir/set_camera_info][0m
+[31m[ERROR] [1683641691.396794438, 0.558000000]: Tried to advertise a service that is already advertised in this node [/IFM_ir/set_parameters][0m
+[0m[ INFO] [1683641690.838984091, 0.158000000]: Starting plugin DiffDrive(ns = //)[0m
+[0m[ INFO] [1683641690.839866728, 0.158000000]: DiffDrive(ns = //): <tf_prefix> = [0m
+[0m[ INFO] [1683641690.840368019, 0.158000000]: DiffDrive(ns = //): Try to subscribe to /crawler0/base_controller/cmd_vel[0m
+[0m[ INFO] [1683641690.843247213, 0.158000000]: DiffDrive(ns = //): Subscribe to /crawler0/base_controller/cmd_vel[0m
+[0m[ INFO] [1683641690.844020662, 0.158000000]: DiffDrive(ns = //): Advertise odom on /crawler0/odom [0m
+[0m[ INFO] [1683641691.395384744, 0.558000000]: Camera Plugin: Using the 'robotNamespace' param: '/'[0m
+[0m[ INFO] [1683641691.396769914, 0.558000000]: Camera Plugin (ns = /)  <tf_prefix_>, set to ""[0m
+[0m[ INFO] [1683641691.397995810, 0.558000000]: <robotNamespace> set to: //[0m
+[0m[ INFO] [1683641691.398417858, 0.558000000]: <topicName> set to: /crawler1/imu[0m
+[0m[ INFO] [1683641691.398463132, 0.558000000]: <frameName> set to: crawler_1/base_link[0m
+[0m[ INFO] [1683641691.398513397, 0.558000000]: <updateRateHZ> set to: 10[0m
+[0m[ INFO] [1683641691.398546541, 0.558000000]: <gaussianNoise> set to: 0[0m
+[0m[ INFO] [1683641691.398587086, 0.558000000]: <xyzOffset> set to: 0 0 0[0m
+[0m[ INFO] [1683641691.398628333, 0.558000000]: <rpyOffset> set to: 0 -0 0[0m
+[0m[ INFO] [1683641691.405637511, 0.558000000]: NS UWBe1 UwbPlugin::Load crawler1 Tag 0 Publish TF 1[0m
+NS UWBe1 Uwb topic: uwb
+[0m[ INFO] [1683641691.406008777, 0.558000000]: NS TAG1 UwbPlugin::Load crawler1 Tag 1 Publish TF 0[0m
+NS TAG1 Uwb topic: crawler1/uwb_sim
+[33m[ WARN] [1683641691.406724615, 0.558000000]: DiffDrive(ns = //): missing <rosDebugLevel> default is na[0m
+[33m[ WARN] [1683641691.407803452, 0.558000000]: DiffDrive(ns = //): missing <wheelAcceleration> default is 0[0m
+[33m[ WARN] [1683641691.407833292, 0.558000000]: DiffDrive(ns = //): missing <wheelTorque> default is 5[0m
+[33m[ WARN] [1683641954.506882942, 261.845000000]: Shutdown request received.[0m
+[33m[ WARN] [1683641954.515075443, 261.848000000]: Reason given for shutdown: [[/robot_state_publisher_world] Reason: new node registered with same name][0m
+[33m[ WARN] [1683641954.536689114, 261.851000000]: Shutdown request received.[0m
+[33m[ WARN] [1683641954.536915717, 261.851000000]: Reason given for shutdown: [[/world_to_world_tf] Reason: new node registered with same name][0m
+[33m[ WARN] [1683641954.602852820, 261.879000000]: Shutdown request received.[0m
+[33m[ WARN] [1683641954.610217350, 261.879000000]: Reason given for shutdown: [[/robot_state_publisher_crawler_0] Reason: new node registered with same name][0m
+[33m[ WARN] [1683641954.709991096, 261.879000000]: Shutdown request received.[0m
+[33m[ WARN] [1683641954.717087087, 261.879000000]: Reason given for shutdown: [[/robot_state_publisher_crawler_1] Reason: new node registered with same name][0m
+[33m[ WARN] [1683641955.236724072, 262.220000000]: Shutdown request received.[0m
+[33m[ WARN] [1683641955.236880600, 262.220000000]: Reason given for shutdown: [[/rviz] Reason: new node registered with same name][0m
+[31m[ERROR] [1683641955.618031357, 262.439000000]: SpawnModel: Failure - model name corrosion already exist.[0m
+shutdown request: [/crawler_0_1_ugw_viz] Reason: new node registered with same name
+[WARN] [1683641688.767495, 0.000000]: wait_for_service(/gazebo/spawn_urdf_model): failed to contact, will keep trying
+[INFO] [1683641688.760763, 0.000000]: Loading model XML from ros parameter robot_description_crawler_0
+[INFO] [1683641688.765425, 0.000000]: Waiting for service /gazebo/spawn_urdf_model
+[INFO] [1683641689.973645, 0.000000]: wait_for_service(/gazebo/spawn_urdf_model): finally were able to contact [rosrpc://chroma-HP-ProBook-650-G2:55161]
+[INFO] [1683641689.974780, 0.000000]: Calling service /gazebo/spawn_urdf_model
+[INFO] [1683641690.811455, 0.158000]: Spawn status: SpawnModel: Successfully spawned entity
+[INFO] [1683641690.812907, 0.158000]: Waiting for shutdown to delete model crawler0
+shutdown request: [/spawn_crawler_0] Reason: new node registered with same name
+[INFO] [1683641955.614271, 262.437000]: Deleting model crawler0
+shutdown request: [/og_viz] Reason: new node registered with same name
+[31m[ERROR] [1683641956.221462663, 262.891000000]: Tried to advertise a service that is already advertised in this node [/IFM_ir/set_parameters][0m
+[0m[ INFO] [1683641691.406701243, 0.558000000]: Starting plugin DiffDrive(ns = //)[0m
+[0m[ INFO] [1683641691.407745772, 0.558000000]: DiffDrive(ns = //): <tf_prefix> = [0m
+[0m[ INFO] [1683641691.407900988, 0.558000000]: DiffDrive(ns = //): Try to subscribe to /crawler1/base_controller/cmd_vel[0m
+[0m[ INFO] [1683641691.409641892, 0.558000000]: DiffDrive(ns = //): Subscribe to /crawler1/base_controller/cmd_vel[0m
+[0m[ INFO] [1683641691.410195116, 0.558000000]: DiffDrive(ns = //): Advertise odom on /crawler1/odom [0m
+[0m[ INFO] [1683641956.218433530, 262.891000000]: Camera Plugin: Using the 'robotNamespace' param: '/'[0m
+[0m[ INFO] [1683641956.219995638, 262.891000000]: <robotNamespace> set to: //[0m
+[0m[ INFO] [1683641956.220048443, 262.891000000]: <topicName> set to: /crawler0/imu[0m
+[0m[ INFO] [1683641956.220068507, 262.891000000]: <frameName> set to: crawler_0/base_link[0m
+[0m[ INFO] [1683641956.220099309, 262.891000000]: <updateRateHZ> set to: 10[0m
+[0m[ INFO] [1683641956.220242713, 262.891000000]: <gaussianNoise> set to: 0[0m
+[0m[ INFO] [1683641956.220288111, 262.891000000]: <xyzOffset> set to: 0 0 0[0m
+[0m[ INFO] [1683641956.220314113, 262.891000000]: <rpyOffset> set to: 0 -0 0[0m
+[0m[ INFO] [1683641956.221417024, 262.891000000]: Camera Plugin (ns = /)  <tf_prefix_>, set to ""[0m
+[0m[ INFO] [1683641956.233085493, 262.891000000]: NS UWBe0 UwbPlugin::Load crawler0 Tag 0 Publish TF 1[0m
+NS UWBe0 Uwb topic: uwb
+[0m[ INFO] [1683641956.233458257, 262.891000000]: NS TAG0 UwbPlugin::Load crawler0 Tag 1 Publish TF 0[0m
+NS TAG0 Uwb topic: crawler0/uwb_sim
+[33m[ WARN] [1683641956.234919429, 262.891000000]: DiffDrive(ns = //): missing <rosDebugLevel> default is na[0m
+[33m[ WARN] [1683641956.235941237, 262.891000000]: DiffDrive(ns = //): missing <wheelAcceleration> default is 0[0m
+[33m[ WARN] [1683641956.235974509, 262.891000000]: DiffDrive(ns = //): missing <wheelTorque> default is 5[0m
+[31m[ERROR] [1683641956.647773304, 263.287000000]: SpawnModel: Failure - model name crawler1 already exist.[0m
+[WARN] [1683641688.797058, 0.000000]: wait_for_service(/gazebo/spawn_urdf_model): failed to contact, will keep trying
+[INFO] [1683641688.786030, 0.000000]: Loading model XML from ros parameter world_description
+[INFO] [1683641688.794788, 0.000000]: Waiting for service /gazebo/spawn_urdf_model
+[INFO] [1683641690.003309, 0.000000]: wait_for_service(/gazebo/spawn_urdf_model): finally were able to contact [rosrpc://chroma-HP-ProBook-650-G2:55161]
+[INFO] [1683641690.004677, 0.000000]: Calling service /gazebo/spawn_urdf_model
+[INFO] [1683641691.112220, 0.357000]: Spawn status: SpawnModel: Successfully spawned entity
+[INFO] [1683641691.113703, 0.359000]: Waiting for shutdown to delete model corrosion
+shutdown request: [/spawn_corrosion] Reason: new node registered with same name
+[INFO] [1683641955.610236, 262.435000]: Deleting model corrosion
+[WARN] [1683641688.834209, 0.000000]: wait_for_service(/gazebo/spawn_urdf_model): failed to contact, will keep trying
+[INFO] [1683641688.824669, 0.000000]: Loading model XML from ros parameter robot_description_crawler_1
+[INFO] [1683641688.831291, 0.000000]: Waiting for service /gazebo/spawn_urdf_model
+[INFO] [1683641690.040660, 0.000000]: wait_for_service(/gazebo/spawn_urdf_model): finally were able to contact [rosrpc://chroma-HP-ProBook-650-G2:55161]
+[INFO] [1683641690.042325, 0.000000]: Calling service /gazebo/spawn_urdf_model
+[INFO] [1683641691.405408, 0.558000]: Spawn status: SpawnModel: Successfully spawned entity
+[INFO] [1683641691.406753, 0.558000]: Waiting for shutdown to delete model crawler1
+shutdown request: [/spawn_crawler_1] Reason: new node registered with same name
+[INFO] [1683641955.902567, 262.669000]: Deleting model crawler1
+[31m[ERROR] [1683642250.346814657, 555.818000000]: Tried to advertise a service that is already advertised in this node [/IFM_ir/set_camera_info][0m
+[31m[ERROR] [1683642250.356418738, 555.818000000]: Tried to advertise a service that is already advertised in this node [/IFM_ir/set_parameters][0m
+[31m[ERROR] [1683642250.370394729, 555.818000000]: SpawnModel: Failure - model name crawler0 already exist.[0m
+[0m[ INFO] [1683641956.234878723, 262.891000000]: Starting plugin DiffDrive(ns = //)[0m
+[0m[ INFO] [1683641956.235855258, 262.891000000]: DiffDrive(ns = //): <tf_prefix> = [0m
+[0m[ INFO] [1683641956.236064341, 262.891000000]: DiffDrive(ns = //): Try to subscribe to /crawler0/base_controller/cmd_vel[0m
+[0m[ INFO] [1683641956.238785022, 262.891000000]: DiffDrive(ns = //): Subscribe to /crawler0/base_controller/cmd_vel[0m
+[0m[ INFO] [1683641956.239434247, 262.891000000]: DiffDrive(ns = //): Advertise odom on /crawler0/odom [0m
+[0m[ INFO] [1683642250.337465214, 555.818000000]: Camera Plugin: Using the 'robotNamespace' param: '/'[0m
+[0m[ INFO] [1683642250.356369423, 555.818000000]: Camera Plugin (ns = /)  <tf_prefix_>, set to ""[0m
+[0m[ INFO] [1683642250.410905170, 555.818000000]: <robotNamespace> set to: //[0m
+[0m[ INFO] [1683642250.410955170, 555.818000000]: <topicName> set to: /crawler1/imu[0m
+[0m[ INFO] [1683642250.410991838, 555.818000000]: <frameName> set to: crawler_1/base_link[0m
+[0m[ INFO] [1683642250.411037348, 555.818000000]: <updateRateHZ> set to: 10[0m
+[0m[ INFO] [1683642250.411074584, 555.818000000]: <gaussianNoise> set to: 0[0m
+[0m[ INFO] [1683642250.411123185, 555.818000000]: <xyzOffset> set to: 0 0 0[0m
+[0m[ INFO] [1683642250.411208324, 555.818000000]: <rpyOffset> set to: 0 -0 0[0m
+[0m[ INFO] [1683642250.468327051, 555.818000000]: NS UWBe1 UwbPlugin::Load crawler1 Tag 0 Publish TF 1[0m
+NS UWBe1 Uwb topic: uwb
+[0m[ INFO] [1683642250.468575945, 555.818000000]: NS TAG1 UwbPlugin::Load crawler1 Tag 1 Publish TF 0[0m
+NS TAG1 Uwb topic: crawler1/uwb_sim
+[33m[ WARN] [1683642250.469591356, 555.818000000]: DiffDrive(ns = //): missing <rosDebugLevel> default is na[0m
+[33m[ WARN] [1683642250.470379063, 555.818000000]: DiffDrive(ns = //): missing <wheelAcceleration> default is 0[0m
+[33m[ WARN] [1683642250.470403819, 555.818000000]: DiffDrive(ns = //): missing <wheelTorque> default is 5[0m
+Segmentation fault (core dumped)

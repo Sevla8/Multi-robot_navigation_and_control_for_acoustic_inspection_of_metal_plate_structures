@@ -1,0 +1,775 @@
+the rosdep view is empty: call 'sudo rosdep init' and 'rosdep update'
+the rosdep view is empty: call 'sudo rosdep init' and 'rosdep update'
+[33m[ WARN] [1683663067.875446359, 18.816000000]: Task Idle interrupted[0m
+[33m[ WARN] [1683663067.893533889, 18.834000000]: Task Idle interrupted[0m
+[0m[ INFO] [1683663065.668010322]: Task scheduler created: debug 1[0m
+[0m[ INFO] [1683663065.691306615]: Adding task Wait[0m
+[0m[ INFO] [1683663065.691385769]: Adding task SetStatusSync[0m
+[0m[ INFO] [1683663065.691424222]: Adding task WaitForStatusSync[0m
+[0m[ INFO] [1683663065.691888902]: Looking for tasks in /home/chroma/Documents/bugwright2-ws/bugwright_ws/src/floor_nav/../../devel/share/floor_nav/tasks[0m
+[0m[ INFO] [1683663065.695850483]: Adding task WaitForROI[0m
+[0m[ INFO] [1683663065.700526010]: Adding task WaitForCompletion[0m
+[0m[ INFO] [1683663065.703938166]: Adding task WaitForAuto[0m
+[0m[ INFO] [1683663065.706578753]: Adding task Trigger[0m
+[0m[ INFO] [1683663065.709218257]: Adding task SetManual[0m
+[0m[ INFO] [1683663065.712686103]: Adding task SetHeading[0m
+[0m[ INFO] [1683663065.718093176]: Adding task PlanTo[0m
+[0m[ INFO] [1683663065.722115801]: Adding task ActionMoveGoal[0m
+[0m[ INFO] [1683663065.727183580]: Adding task ActionMoveBase[0m
+[0m[ INFO] [1683663065.729628104]: Adding task GoToPose[0m
+[0m[ INFO] [1683663065.732841693]: Adding task GoTo[0m
+[0m[ INFO] [1683663065.735505036]: Adding task FollowLine[0m
+[0m[ INFO] [1683663065.736692122]: Adding task Clear[0m
+[0m[ INFO] [1683663065.738757656]: Adding task AlignWithTarget[0m
+[0m[ INFO] [1683663065.852140262, 16.800000000]: Task Directory:[0m
+[0m[ INFO] [1683663065.852187302, 16.800000000]: 0 -- ActionMoveBase: Publish an action goal for move base[0m
+[0m[ INFO] [1683663065.852242444, 16.800000000]: 1 -- ActionMoveGoal: Reach a desired goal using move base[0m
+[0m[ INFO] [1683663065.852286385, 16.800000000]: 2 -- AlignWithTarget: Align with a target[0m
+[0m[ INFO] [1683663065.852342627, 16.800000000]: 3 -- Clear: Clear the screen[0m
+[0m[ INFO] [1683663065.852472484, 16.800000000]: 4 -- FollowLine: Follow a line[0m
+[0m[ INFO] [1683663065.852522169, 16.800000000]: 5 -- GoTo: Reach a desired destination[0m
+[0m[ INFO] [1683663065.852580800, 16.800000000]: 6 -- GoToPose: Reach a desired destination[0m
+[0m[ INFO] [1683663065.852636708, 16.800000000]: 7 -- PlanTo: Reach a desired destination using the path planner[0m
+[0m[ INFO] [1683663065.852694417, 16.800000000]: 8 -- SetHeading: Reach a desired heading angle[0m
+[0m[ INFO] [1683663065.852747031, 16.800000000]: 9 -- SetManual: Set the control mux to manual mode[0m
+[0m[ INFO] [1683663065.852851592, 16.800000000]: 10 -- SetStatusSync: Update the current task status to be published by the environment[0m
+[0m[ INFO] [1683663065.852909346, 16.800000000]: 11 -- Trigger: Call a trigger service[0m
+[0m[ INFO] [1683663065.852950081, 16.800000000]: 12 -- Wait: Do nothing for a given time[0m
+[0m[ INFO] [1683663065.852994866, 16.800000000]: 13 -- WaitForAuto: Wait for the control mux to switch to auto[0m
+[0m[ INFO] [1683663065.853034832, 16.800000000]: 14 -- WaitForCompletion: Do nothing until a given area is completely empty[0m
+[0m[ INFO] [1683663065.853073445, 16.800000000]: 15 -- WaitForROI: Do nothing until we reach a given destination[0m
+[0m[ INFO] [1683663065.853110632, 16.800000000]: 16 -- WaitForStatusSync: Wait for a sync object to get the desired status[0m
+[0m[ INFO] [1683663065.853149887, 16.800000000]: 17 -- Idle: Do nothing[0m
+[0m[ INFO] [1683663065.867460906, 16.815000000]: Running task 'Idle' at period 0.500000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663067.620714265, 18.561000000]: Terminating thread Idle[0m
+[0m[ INFO] [1683663067.875547247, 18.816000000]: Cleaning up task 1:Idle[0m
+[0m[ INFO] [1683663067.875571565, 18.816000000]: Task 'Idle' terminated[0m
+[0m[ INFO] [1683663067.888434173, 18.829000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663067.888510980, 18.829000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663067.888538842, 18.829000000]: Cleaning up task 2:SetStatusSync[0m
+[0m[ INFO] [1683663067.888566478, 18.829000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1683663067.923256944, 18.862000000]: W[0m[ INFO] [1683663065.572779973]: Task scheduler created: debug 1[0m
+[0m[ INFO] [1683663065.590981739]: Adding task Wait[0m
+[0m[ INFO] [1683663065.591105471]: Adding task SetStatusSync[0m
+[0m[ INFO] [1683663065.591166215]: Adding task WaitForStatusSync[0m
+[0m[ INFO] [1683663065.591744695]: Looking for tasks in /home/chroma/Documents/bugwright2-ws/bugwright_ws/src/floor_nav/../../devel/share/floor_nav/tasks[0m
+[0m[ INFO] [1683663065.599482607]: Adding task WaitForROI[0m
+[0m[ INFO] [1683663065.601883865]: Adding task WaitForCompletion[0m
+[0m[ INFO] [1683663065.604790820]: Adding task WaitForAuto[0m
+[0m[ INFO] [1683663065.607562557]: Adding task Trigger[0m
+[0m[ INFO] [1683663065.609647273]: Adding task SetManual[0m
+[0m[ INFO] [1683663065.611996974]: Adding task SetHeading[0m
+[0m[ INFO] [1683663065.615012034]: Adding task PlanTo[0m
+[0m[ INFO] [1683663065.622170303]: Adding task ActionMoveGoal[0m
+[0m[ INFO] [1683663065.631116913]: Adding task ActionMoveBase[0m
+[0m[ INFO] [1683663065.633726042]: Adding task GoToPose[0m
+[0m[ INFO] [1683663065.662004866]: Adding task GoTo[0m
+[0m[ INFO] [1683663065.664032432]: Adding task FollowLine[0m
+[0m[ INFO] [1683663065.665182479]: Adding task Clear[0m
+[0m[ INFO] [1683663065.668825889]: Adding task AlignWithTarget[0m
+[0m[ INFO] [1683663065.785521039]: Task Directory:[0m
+[0m[ INFO] [1683663065.785684878]: 0 -- ActionMoveBase: Publish an action goal for move base[0m
+[0m[ INFO] [1683663065.785854977]: 1 -- ActionMoveGoal: Reach a desired goal using move base[0m
+[0m[ INFO] [1683663065.785971309]: 2 -- AlignWithTarget: Align with a target[0m
+[0m[ INFO] [1683663065.786095601]: 3 -- Clear: Clear the screen[0m
+[0m[ INFO] [1683663065.786212442]: 4 -- FollowLine: Follow a line[0m
+[0m[ INFO] [1683663065.786321809]: 5 -- GoTo: Reach a desired destination[0m
+[0m[ INFO] [1683663065.786423986]: 6 -- GoToPose: Reach a desired destination[0m
+[0m[ INFO] [1683663065.786536113]: 7 -- PlanTo: Reach a desired destination using the path planner[0m
+[0m[ INFO] [1683663065.786653066]: 8 -- SetHeading: Reach a desired heading angle[0m
+[0m[ INFO] [1683663065.786746761]: 9 -- SetManual: Set the control mux to manual mode[0m
+[0m[ INFO] [1683663065.786832728]: 10 -- SetStatusSync: Update the current task status to be published by the environment[0m
+[0m[ INFO] [1683663065.786918168]: 11 -- Trigger: Call a trigger service[0m
+[0m[ INFO] [1683663065.786994189]: 12 -- Wait: Do nothing for a given time[0m
+[0m[ INFO] [1683663065.787067691]: 13 -- WaitForAuto: Wait for the control mux to switch to auto[0m
+[0m[ INFO] [1683663065.787135195]: 14 -- WaitForCompletion: Do nothing until a given area is completely empty[0m
+[0m[ INFO] [1683663065.787198859]: 15 -- WaitForROI: Do nothing until we reach a given destination[0m
+[0m[ INFO] [1683663065.787256346]: 16 -- WaitForStatusSync: Wait for a sync object to get the desired status[0m
+[0m[ INFO] [1683663065.787311563]: 17 -- Idle: Do nothing[0m
+[0m[ INFO] [1683663065.807470897]: Running task 'Idle' at period 0.500000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663067.576873869, 18.517000000]: Terminating thread Idle[0m
+[0m[ INFO] [1683663067.893636399, 18.834000000]: Cleaning up task 1:Idle[0m
+[0m[ INFO] [1683663067.893665906, 18.834000000]: Task 'Idle' terminated[0m
+[0m[ INFO] [1683663067.915658963, 18.855000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663067.915753198, 18.855000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663067.915777474, 18.855000000]: Cleaning up task 2:SetStatusSync[0m
+[0m[ INFO] [1683663067.915801564, 18.855000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1683663067.968746494, 18.906000000]: Waiting for partner 'crawler_0' to reach status 0[0m
+[0m[ INFO] [1683663067.968942719, 18.906000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663067.969044234, 18.907000000]: Task 'WaitForStatusSync' not runninaiting for partner 'crawler_1' to reach status 0[0m
+[0m[ INFO] [1683663067.923533065, 18.863000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663067.923634439, 18.863000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663067.923666354, 18.863000000]: Cleaning up task 3:WaitForStatusSync[0m
+[0m[ INFO] [1683663067.923691633, 18.863000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1683663067.966892046, 18.905000000]: Going to -3.10 3.00[0m
+[0m[ INFO] [1683663067.967087185, 18.905000000]: Running task 'AlignWithTarget' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663067.967291478, 18.905000000]: Task 'AlignWithTarget' not running anymore (4)[0m
+[0m[ INFO] [1683663067.967316385, 18.905000000]: Cleaning up task 4:AlignWithTarget[0m
+[0m[ INFO] [1683663067.967363567, 18.905000000]: Task 'AlignWithTarget' terminated[0m
+[0m[ INFO] [1683663068.016610921, 18.940000000]: Going to -3.10 3.00[0m
+[0m[ INFO] [1683663068.016753244, 18.940000000]: Running task 'FollowLine' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663097.512141349, 48.360000000]: Task 'FollowLine' not running anymore (4)[0m
+[0m[ INFO] [1683663097.512176676, 48.360000000]: Cleaning up task 5:FollowLine[0m
+[0m[ INFO] [1683663097.512230687, 48.360000000]: Task 'FollowLine' terminated[0m
+[0m[ INFO] [1683663097.556560377, 48.404000000]: Going to -1.10 3.00[0m
+[0m[ INFO] [1683663097.556678778, 48.404000000]: Running task 'AlignWithTarget' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663104.072668042, 54.905000000]: Task 'AlignWithTarget' not running anymore (4)[0m
+[0m[ INFO] [1683663104.072709201, 54.905000000]: Cleaning up task 6:AlignWithTarget[0m
+[0m[ INFO] [1683663104.072774596, 54.905000000]: Task 'AlignWithTarget' terminated[0m
+[0m[ INFO] [1683663104.121081165, 54.953000000]: Going to -1.10 3.00[0m
+[0m[ INFO] [1683663104.121208406, 54.953000000]: Running task 'FollowLine' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663112.892126076, 63.703000000]: Task 'FollowLine' not running anymore (4)[0m
+[0m[ INFO] [1683663112.892156801, 63.703000000]: Cleaning up task 7:FollowLine[0m
+[0m[ INFO] [1683663112.892189493, 63.703000000]: Task 'FollowLine' terminated[0m
+[0m[ INFO] [1683663112.914269864, 63.725000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663112.914338161, 63.725000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663112.914359022, 63.725000000]: Cleaning up task 8:SetStatusSync[0m
+[0m[ INFO] [1683663112.914378259, 63.725000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1683663112.943219651, 63.754000000]: Waiting for partner 'crawler_1' to reach status 1[0m
+[0m[ INFO] [1683663112.943367538, 63.754000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663112.943437821, 63.754000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663112.943468823, 63.754000000]: Cleaning up task 9:WaitForStatusSync[0m
+[0m[ INFO] [1683663112.943485171, 63.754000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1683663112.975046311, 63.786000000]: Going to -1.10 -3.00[0m
+[0m[ INFO] [1683663112.975161415, 63.786000000]: Running task 'AlignWithTarget' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663118.686574346, 69.456000000]: Task 'AlignWithTarget' not running anymore (4)[0m
+[0m[ INFO] [1683663118.686613667, 69.456000000]: Cleaning up task 10:AlignWithTarget[0m
+[0m[ INFO] [1683663118.686658776, 69.456000000]: Task 'AlignWithTarget' terminated[0m
+[0m[ INFO] [1683663118.726387018, 69.498000000]: Going to -1.10 -3.00[0m
+[0m[ INFO] [1683663118.726593034, 69.498000000]: Running task 'FollowLine' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663146.909332157, 97.5580000g anymore (4)[0m
+[0m[ INFO] [1683663067.969097169, 18.907000000]: Cleaning up task 3:WaitForStatusSync[0m
+[0m[ INFO] [1683663067.969132118, 18.907000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1683663068.029683224, 18.966000000]: Going to -0.90 3.00[0m
+[0m[ INFO] [1683663068.029860960, 18.966000000]: Running task 'AlignWithTarget' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663068.030018013, 18.966000000]: Task 'AlignWithTarget' not running anymore (4)[0m
+[0m[ INFO] [1683663068.030048435, 18.966000000]: Cleaning up task 4:AlignWithTarget[0m
+[0m[ INFO] [1683663068.030316780, 18.966000000]: Task 'AlignWithTarget' terminated[0m
+[0m[ INFO] [1683663068.086062858, 19.022000000]: Going to -0.90 3.00[0m
+[0m[ INFO] [1683663068.086235609, 19.022000000]: Running task 'FollowLine' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663097.405959394, 48.253000000]: Task 'FollowLine' not running anymore (4)[0m
+[0m[ INFO] [1683663097.406017412, 48.254000000]: Cleaning up task 5:FollowLine[0m
+[0m[ INFO] [1683663097.406050390, 48.254000000]: Task 'FollowLine' terminated[0m
+[0m[ INFO] [1683663097.431404889, 48.279000000]: Going to 1.10 3.00[0m
+[0m[ INFO] [1683663097.431529330, 48.279000000]: Running task 'AlignWithTarget' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663102.913649387, 53.749000000]: Task 'AlignWithTarget' not running anymore (4)[0m
+[0m[ INFO] [1683663102.913682202, 53.749000000]: Cleaning up task 6:AlignWithTarget[0m
+[0m[ INFO] [1683663102.913751124, 53.749000000]: Task 'AlignWithTarget' terminated[0m
+[0m[ INFO] [1683663102.952178495, 53.787000000]: Going to 1.10 3.00[0m
+[0m[ INFO] [1683663102.952280501, 53.787000000]: Running task 'FollowLine' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663111.894099859, 62.707000000]: Task 'FollowLine' not running anymore (4)[0m
+[0m[ INFO] [1683663111.894164001, 62.707000000]: Cleaning up task 7:FollowLine[0m
+[0m[ INFO] [1683663111.894243959, 62.707000000]: Task 'FollowLine' terminated[0m
+[0m[ INFO] [1683663111.926666733, 62.740000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663111.926722790, 62.740000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663111.926757356, 62.740000000]: Cleaning up task 8:SetStatusSync[0m
+[0m[ INFO] [1683663111.926793185, 62.740000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1683663111.955385053, 62.769000000]: Waiting for partner 'crawler_0' to reach status 1[0m
+[0m[ INFO] [1683663111.955548112, 62.769000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663113.008418182, 63.819000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663113.008455794, 63.819000000]: Cleaning up task 9:WaitForStatusSync[0m
+[0m[ INFO] [1683663113.008485662, 63.819000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1683663113.051852695, 63.860000000]: Going to 1.10 -3.00[0m
+[0m[ INFO] [1683663113.052000707, 63.862000000]: Running task 'AlignWithTarget' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663120.035914700, 70.802000000]: Task 'AlignWithTarget' not running anymore (4)[0m
+[0m[ INFO] [1683663120.035950986, 70.802000000]: Cleaning up task 10:AlignWithTarget[0m
+[0m[ INFO] [1683663120.035985036, 70.802000000]: Task 'AlignWithTarget' terminated[0m
+[0m[ INFO] [1683663120.088695000, 70.855000000]: Going to 1.10 -3.00[0m
+[0m[ INFO] [1683663120.088923232, 70.855000000]: Running task 'FollowLine' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663148.013424997, 98.656000000]: Task 'FollowLine' not running anymore (4)[0m
+[0m[ INFO] [1683663148.013471082, 98.656000000]: Cleaning up task 11:FollowLine[0m
+[0m[ INFO] [1683663148.013519519, 98.656000000]: Task 'FollowLine' terminated[0m
+[0m[ INFO] [1683663148.065553186, 98.708000000]: Going to 3.10 -00]: Task 'FollowLine' not running anymore (4)[0m
+[0m[ INFO] [1683663146.909413720, 97.558000000]: Cleaning up task 11:FollowLine[0m
+[0m[ INFO] [1683663146.909472038, 97.558000000]: Task 'FollowLine' terminated[0m
+[0m[ INFO] [1683663146.961490387, 97.610000000]: Going to 0.90 -3.00[0m
+[0m[ INFO] [1683663146.961701751, 97.610000000]: Running task 'AlignWithTarget' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663151.884434742, 102.510000000]: Task 'AlignWithTarget' not running anymore (4)[0m
+[0m[ INFO] [1683663151.884471939, 102.510000000]: Cleaning up task 12:AlignWithTarget[0m
+[0m[ INFO] [1683663151.884507832, 102.510000000]: Task 'AlignWithTarget' terminated[0m
+[0m[ INFO] [1683663151.925642299, 102.551000000]: Going to 0.90 -3.00[0m
+[0m[ INFO] [1683663151.925848771, 102.551000000]: Running task 'FollowLine' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663161.184913205, 111.751000000]: Task 'FollowLine' not running anymore (4)[0m
+[0m[ INFO] [1683663161.184954455, 111.751000000]: Cleaning up task 13:FollowLine[0m
+[0m[ INFO] [1683663161.185005693, 111.751000000]: Task 'FollowLine' terminated[0m
+[0m[ INFO] [1683663161.226278144, 111.792000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663161.226347748, 111.792000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663161.226376120, 111.792000000]: Cleaning up task 14:SetStatusSync[0m
+[0m[ INFO] [1683663161.226395652, 111.792000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1683663161.256734661, 111.823000000]: Waiting for partner 'crawler_1' to reach status 2[0m
+[0m[ INFO] [1683663161.256970669, 111.823000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663162.481564175, 113.043000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663162.481607347, 113.043000000]: Cleaning up task 15:WaitForStatusSync[0m
+[0m[ INFO] [1683663162.481633888, 113.043000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1683663162.519276987, 113.080000000]: Going to 0.90 3.00[0m
+[0m[ INFO] [1683663162.519428165, 113.080000000]: Running task 'AlignWithTarget' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663167.766164021, 118.310000000]: Task 'AlignWithTarget' not running anymore (4)[0m
+[0m[ INFO] [1683663167.766201595, 118.310000000]: Cleaning up task 16:AlignWithTarget[0m
+[0m[ INFO] [1683663167.766262664, 118.310000000]: Task 'AlignWithTarget' terminated[0m
+[0m[ INFO] [1683663167.819776240, 118.363000000]: Going to 0.90 3.00[0m
+[0m[ INFO] [1683663167.819939310, 118.363000000]: Running task 'FollowLine' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663196.934220137, 147.256000000]: Task 'FollowLine' not running anymore (4)[0m
+[0m[ INFO] [1683663196.934269448, 147.256000000]: Cleaning up task 17:FollowLine[0m
+[0m[ INFO] [1683663196.934356021, 147.256000000]: Task 'FollowLine' terminated[0m
+[0m[ INFO] [1683663196.976291103, 147.297000000]: Going to 2.90 3.00[0m
+[0m[ INFO] [1683663196.976507548, 147.297000000]: Running task 'AlignWithTarget' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663202.370523952, 152.657000000]: Task 'AlignWithTarget' not running anymore (4)[0m
+[0m[ INFO] [1683663202.370660265, 152.658000000]: Cleaning up task 18:AlignWithTarget[0m
+[0m[ INFO] [1683663202.370719616, 152.658000000]: Task 'AlignWithTarget' terminated[0m
+[0m[ INFO] [1683663202.427185750, 152.713000000]: Going to 2.90 3.00[0m
+[0m[ INFO] [1683663202.427381761, 152.713000000]: Running task 'FollowLine' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663211.375170575, 161.603000000]: Task 'FollowLine' not running anymore (4)[0m
+[0m[ INFO] [1683663211.375223873, 161.603000000]: Cleaning up task 19:FollowLine[0m
+[0m[ INFO] [1683663211.375283194, 161.603000000]: Task 'FollowLine' terminated[0m
+[0m3.00[0m
+[0m[ INFO] [1683663148.065860551, 98.708000000]: Running task 'AlignWithTarget' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663153.138307767, 103.758000000]: Task 'AlignWithTarget' not running anymore (4)[0m
+[0m[ INFO] [1683663153.138334625, 103.758000000]: Cleaning up task 12:AlignWithTarget[0m
+[0m[ INFO] [1683663153.138402056, 103.759000000]: Task 'AlignWithTarget' terminated[0m
+[0m[ INFO] [1683663153.182052472, 103.802000000]: Going to 3.10 -3.00[0m
+[0m[ INFO] [1683663153.182202240, 103.802000000]: Running task 'FollowLine' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663162.389850625, 112.953000000]: Task 'FollowLine' not running anymore (4)[0m
+[0m[ INFO] [1683663162.389892845, 112.953000000]: Cleaning up task 13:FollowLine[0m
+[0m[ INFO] [1683663162.389935844, 112.953000000]: Task 'FollowLine' terminated[0m
+[0m[ INFO] [1683663162.420340703, 112.983000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663162.420430643, 112.983000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663162.420460245, 112.983000000]: Cleaning up task 14:SetStatusSync[0m
+[0m[ INFO] [1683663162.420481443, 112.983000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1683663162.450826892, 113.014000000]: Waiting for partner 'crawler_0' to reach status 2[0m
+[0m[ INFO] [1683663162.451003503, 113.014000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663162.451076714, 113.014000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663162.451116694, 113.014000000]: Cleaning up task 15:WaitForStatusSync[0m
+[0m[ INFO] [1683663162.451153523, 113.014000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1683663162.487006989, 113.048000000]: Going to 3.10 3.00[0m
+[0m[ INFO] [1683663162.487155901, 113.048000000]: Running task 'AlignWithTarget' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663167.914878805, 118.458000000]: Task 'AlignWithTarget' not running anymore (4)[0m
+[0m[ INFO] [1683663167.914923674, 118.458000000]: Cleaning up task 16:AlignWithTarget[0m
+[0m[ INFO] [1683663167.914961784, 118.458000000]: Task 'AlignWithTarget' terminated[0m
+[0m[ INFO] [1683663167.971551489, 118.514000000]: Going to 3.10 3.00[0m
+[0m[ INFO] [1683663167.971759968, 118.514000000]: Running task 'FollowLine' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663196.730327053, 147.054000000]: Task 'FollowLine' not running anymore (4)[0m
+[0m[ INFO] [1683663196.730414137, 147.054000000]: Cleaning up task 17:FollowLine[0m
+[0m[ INFO] [1683663196.730471258, 147.054000000]: Task 'FollowLine' terminated[0m
+[0m[ INFO] [1683663196.793869338, 147.116000000]: Going to 5.10 3.00[0m
+[0m[ INFO] [1683663196.794029032, 147.116000000]: Running task 'AlignWithTarget' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663202.670971617, 152.956000000]: Task 'AlignWithTarget' not running anymore (4)[0m
+[0m[ INFO] [1683663202.671016555, 152.956000000]: Cleaning up task 18:AlignWithTarget[0m
+[0m[ INFO] [1683663202.671230198, 152.956000000]: Task 'AlignWithTarget' terminated[0m
+[0m[ INFO] [1683663202.724763971, 153.009000000]: Going to 5.10 3.00[0m
+[0m[ INFO] [1683663202.724966221, 153.009000000]: Running task 'FollowLine' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663211.472152732, 161.699000000]: Task 'FollowLine' not running anymore (4)[0m
+[0m[ INFO] [1683663211.472202825, 161.699000000]: Cleaning up task 19:FollowLine[0m
+[0m[ INFO] [1683663211.472263796, 161.699000000]: Task 'FollowLine' terminated[0m
+[0m[ INFO] [1683663211.506217530, 161.732000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663211.506306569, 161.732000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663211.506349709, 161.732000000]: Cleaning up task 20:SetStatusSync[0m
+[0m[ INFO] [1683663211.506433002, 161.732000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1683663211.551936940, 161.777000000]: Waiting for partner 'crawler_0' to reach status 3[0m
+[0m[ INFO] [1683663211.552146196, 161.777000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663211.552232897, 161.777000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663211.552271266, 161.777000000]: Cleaning up task 21:WaitForStatusSync[0m
+[0m[ INFO] [1683663211.552300191, 161.777000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1683663211.623793389, 161.847000000]: Going to 5.00 -1.00[0m
+[0m[ INFO] [1683663211.623996712, 161.847000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663236.168587101, 186.307000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1683663236.168623489, 186.307000000]: Cleaning up task 22:GoTo[0m
+[0m[ INFO] [1683663236.168678311, 186.307000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1683663236.209651939, 186.347000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663236.209722538, 186.347000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663236.209743216, 186.347000000]: Cleaning up task 23:SetStatusSync[0m
+[0m[ INFO] [1683663236.209760745, 186.347000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1683663236.240620593, 186.378000000]: Waiting for partner 'crawler_0' to reach status 4[0m
+[0m[ INFO] [1683663236.241058881, 186.379000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663246.920816313, 197.019000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663246.920860133, 197.019000000]: Cleaning up task 24:WaitForStatusSync[0m
+[0m[ INFO] [1683663246.920886057, 197.019000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1683663246.962481001, 197.060000000]: Going to 3.00 -1.00[0m
+[0m[ INFO] [1683663246.962639922, 197.060000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663260.864217491, 210.901000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1683663260.864265691, 210.901000000]: Cleaning up task 25:GoTo[0m
+[0m[ INFO] [1683663260.864304165, 210.901000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1683663260.908537077, 210.945000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663260.908610804, 210.945000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663260.908638761, 210.945000000]: Cleaning up task 26:SetStatusSync[0m
+[0m[ INFO] [1683663260.908674839, 210.945000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1683663260.934301056, 210.970000000]: Waiting for partner 'crawler_0' to reach status 5[0m
+[0m[ INFO] [1683663260.934460165, 210.970000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663263.894441129, 213.920000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663263.894476437, 213.920000000]: Cleaning up task 27:WaitForStatusSync[0m
+[0m[ INFO] [1683663263.894502043, 213.920000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1683663263.953735936, 213.978000000]: Going to -3.00 -0.90[0m
+[0m[ INFO] [1683663263.953981626, 213.979000000]: Running task 'AlignWithTarget' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663263.954075783, 213.979000000]: Task 'AlignWithTarget' not running anymore (4)[0m
+[0m[ INFO] [1683663263.954117353, 213.979000000]: Cleaning up task 28:AlignWithTarget[0m
+[0m[ INFO] [1683663263.954167149, 213.979000000]: Task 'AlignWithTarget' terminated[0m
+[0m[ INFO] [1683663264.003745231, 214.027000000]: Going to -3.00 -0.90[0m
+[0m[ INFO] [1683663264.003974511, 214.027000000[ INFO] [1683663211.415552735, 161.643000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663211.415681146, 161.643000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663211.415728665, 161.643000000]: Cleaning up task 20:SetStatusSync[0m
+[0m[ INFO] [1683663211.415766124, 161.643000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1683663211.446655405, 161.673000000]: Waiting for partner 'crawler_1' to reach status 3[0m
+[0m[ INFO] [1683663211.446871647, 161.674000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663211.517979394, 161.744000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663211.518085254, 161.744000000]: Cleaning up task 21:WaitForStatusSync[0m
+[0m[ INFO] [1683663211.518167113, 161.744000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1683663211.606797408, 161.831000000]: Going to 5.00 -3.00[0m
+[0m[ INFO] [1683663211.607011890, 161.831000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663246.802309579, 196.901000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1683663246.802416569, 196.901000000]: Cleaning up task 22:GoTo[0m
+[0m[ INFO] [1683663246.802619408, 196.902000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1683663246.838599479, 196.938000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663246.838673690, 196.938000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663246.838705924, 196.938000000]: Cleaning up task 23:SetStatusSync[0m
+[0m[ INFO] [1683663246.838735600, 196.938000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1683663246.867456033, 196.966000000]: Waiting for partner 'crawler_1' to reach status 4[0m
+[0m[ INFO] [1683663246.867633887, 196.966000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663246.867715512, 196.967000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663246.867739161, 196.967000000]: Cleaning up task 24:WaitForStatusSync[0m
+[0m[ INFO] [1683663246.867771502, 196.967000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1683663246.907408817, 197.005000000]: Going to 3.00 -3.00[0m
+[0m[ INFO] [1683663246.907596443, 197.006000000]: Running task 'GoTo' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663263.830105156, 213.856000000]: Task 'GoTo' not running anymore (4)[0m
+[0m[ INFO] [1683663263.830146660, 213.856000000]: Cleaning up task 25:GoTo[0m
+[0m[ INFO] [1683663263.830199637, 213.856000000]: Task 'GoTo' terminated[0m
+[0m[ INFO] [1683663263.859270817, 213.885000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663263.859363392, 213.885000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663263.859394597, 213.885000000]: Cleaning up task 26:SetStatusSync[0m
+[0m[ INFO] [1683663263.859427531, 213.885000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1683663263.888542527, 213.914000000]: Waiting for partner 'crawler_1' to reach status 5[0m
+[0m[ INFO] [1683663263.888739521, 213.914000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663263.888826432, 213.914000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663263.888857359, 213.914000000]: Cleaning up task 27:WaitForStatusSync[0m
+[0m[ INFO] [1683663263.888883095, 213.914000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1683663263.928798314, 213.953000000]: Going to -3.00 -3.10[0m
+[0m[ INFO] [1683663263.928984013, 213.953000000]: Running task 'AlignWithTarget' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663264.078812114, 214.103000000]: Task 'AlignWithTarget' not running anymore (4)[0m
+[0m[ INFO] [1683663264.078855565, 214.103000000]: Cleaning up task 28:AlignWithTarget[0m
+[0m[ INFO] [1683663264.078934266, 214.103000000]: Task 'AlignWithTarget' terminated[0m
+[0m[ INFO] [1683663264.116098715, 214.140000000]: Going to -3.00 -3.10[0m
+[0m[ INFO] [1683663264.116272941, 214.140000000]: Running task 'FollowLine' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663293.900053718, 243.810000000]: Task 'FollowLine' not running anymore (4)[0m
+[0m[ INFO] [1683663293.900105580, 243.810000000]: Cleaning up task 29:FollowLine[0m
+[0m[ INFO] [1683663293.900164481, 243.810000000]: Task 'FollowLine' terminated[0m
+[0m[ INFO] [1683663293.947583864, 243.857000000]: Going to -3.00 -1.10[0m
+[0m[ INFO] [1683663293.947767591, 243.857000000]: Running task 'AlignWithTarget' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663300.298893814, 250.157000000]: Task 'AlignWithTarget' not running anymore (4)[0m
+[0m[ INFO] [1683663300.298930811, 250.157000000]: Cleaning up task 30:AlignWithTarget[0m
+[0m[ INFO] [1683663300.299013483, 250.158000000]: Task 'AlignWithTarget' terminated[0m
+[0m[ INFO] [1683663300.336062821, 250.194000000]: Going to -3.00 -1.10[0m
+[0m[ INFO] [1683663300.336275801, 250.195000000]: Running task 'FollowLine' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663309.281157178, 259.105000000]: Task 'FollowLine' not running anymore (4)[0m
+[0m[ INFO] [1683663309.281193519, 259.105000000]: Cleaning up task 31:FollowLine[0m
+[0m[ INFO] [1683663309.281261647, 259.105000000]: Task 'FollowLine' terminated[0m
+[0m[ INFO] [1683663309.315340531, 259.138000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663309.315421355, 259.138000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663309.315456138, 259.138000000]: Cleaning up task 32:SetStatusSync[0m
+[0m[ INFO] [1683663309.315490147, 259.138000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1683663309.341864241, 259.164000000]: Waiting for partner 'crawler_1' to reach status 6[0m
+[0m[ INFO] [1683663309.342104595, 259.164000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663309.342193715, 259.164000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663309.342235451, 259.164000000]: Cleaning up task 33:WaitForStatusSync[0m
+[0m[ INFO] [1683663309.342277342, 259.164000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1683663309.374949769, 259.197000000]: Going to 3.00 -1.10[0m
+[0m[ INFO] [1683663309.375145713, 259.197000000]: Running task 'AlignWithTarget' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663315.057618038, 264.857000000]: Task 'AlignWithTarget' not running anymore (4)[0m
+[0m[ INFO] [1683663315.057660381, 264.857000000]: Cleaning up task 34:AlignWithTarget[0m
+[0m[ INFO] [1683663315.057733188, 264.857000000]: Task 'AlignWithTarget' terminated[0m
+[0m[ INFO] [1683663315.103864726, 264.902000000]: Going to 3.00 -1.10[0m
+[0m[ INFO] [1683663315.104062092, 264.903000000]: Running task 'FollowLine' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663343.303895564, 293.004000000]: Task 'FollowLine' not running anymore (4)[0m
+[0m[ INFO] [1683663343.303946417, 293.004000000]: Cleaning up task 35:FollowLine[0m
+[0m[ INFO] [1683663343.304020681, 293.004000000]: Task 'FollowLine' terminated[0m
+[0m[ INFO] [1683663343.342222034, 293.042000000]: Going to 3.00 0.90[0m
+[0m[ INFO] [1683663343.342377761, 293.042000000]: Running task 'AlignWithTarget' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663348.575331396, 298.252000000]: Task 'AlignWithTarget' not running anymore (4)[0m
+[0m[ INFO] [1683663348.575567303, 298.253000000]: Cleaning up task 36:AlignWithTarget[0m
+[0m[ INFO] [1683663348.575633473, 298.253000000]: Task 'AlignWithTarget' terminated[0m
+[0m[ INFO] [1683663348.626356490, 298.304000000]: Goin]: Running task 'FollowLine' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663293.696341614, 243.607000000]: Task 'FollowLine' not running anymore (4)[0m
+[0m[ INFO] [1683663293.696385111, 243.607000000]: Cleaning up task 29:FollowLine[0m
+[0m[ INFO] [1683663293.696427762, 243.607000000]: Task 'FollowLine' terminated[0m
+[0m[ INFO] [1683663293.730986382, 243.642000000]: Going to -3.00 1.10[0m
+[0m[ INFO] [1683663293.731179744, 243.642000000]: Running task 'AlignWithTarget' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663299.596908672, 249.457000000]: Task 'AlignWithTarget' not running anymore (4)[0m
+[0m[ INFO] [1683663299.596961729, 249.457000000]: Cleaning up task 30:AlignWithTarget[0m
+[0m[ INFO] [1683663299.597040325, 249.457000000]: Task 'AlignWithTarget' terminated[0m
+[0m[ INFO] [1683663299.635972282, 249.496000000]: Going to -3.00 1.10[0m
+[0m[ INFO] [1683663299.636144613, 249.496000000]: Running task 'FollowLine' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663308.328752070, 258.157000000]: Task 'FollowLine' not running anymore (4)[0m
+[0m[ INFO] [1683663308.328797985, 258.157000000]: Cleaning up task 31:FollowLine[0m
+[0m[ INFO] [1683663308.328847775, 258.157000000]: Task 'FollowLine' terminated[0m
+[0m[ INFO] [1683663308.353545288, 258.181000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663308.353661284, 258.181000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663308.353699196, 258.181000000]: Cleaning up task 32:SetStatusSync[0m
+[0m[ INFO] [1683663308.353735035, 258.181000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1683663308.382043744, 258.209000000]: Waiting for partner 'crawler_0' to reach status 6[0m
+[0m[ INFO] [1683663308.382229776, 258.210000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663309.397682256, 259.220000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663309.397720341, 259.220000000]: Cleaning up task 33:WaitForStatusSync[0m
+[0m[ INFO] [1683663309.397756267, 259.220000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1683663309.442915230, 259.265000000]: Going to 3.00 1.10[0m
+[0m[ INFO] [1683663309.443096561, 259.265000000]: Running task 'AlignWithTarget' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663314.904934928, 264.705000000]: Task 'AlignWithTarget' not running anymore (4)[0m
+[0m[ INFO] [1683663314.904986076, 264.705000000]: Cleaning up task 34:AlignWithTarget[0m
+[0m[ INFO] [1683663314.905082463, 264.705000000]: Task 'AlignWithTarget' terminated[0m
+[0m[ INFO] [1683663314.945732789, 264.746000000]: Going to 3.00 1.10[0m
+[0m[ INFO] [1683663314.945923430, 264.746000000]: Running task 'FollowLine' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663343.055127553, 292.756000000]: Task 'FollowLine' not running anymore (4)[0m
+[0m[ INFO] [1683663343.055175581, 292.756000000]: Cleaning up task 35:FollowLine[0m
+[0m[ INFO] [1683663343.055223957, 292.756000000]: Task 'FollowLine' terminated[0m
+[0m[ INFO] [1683663343.102450084, 292.802000000]: Going to 3.00 3.10[0m
+[0m[ INFO] [1683663343.102655310, 292.802000000]: Running task 'AlignWithTarget' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663348.421297100, 298.102000000]: Task 'AlignWithTarget' not running anymore (4)[0m
+[0m[ INFO] [1683663348.421346380, 298.102000000]: Cleaning up task 36:AlignWithTarget[0m
+[0m[ INFO] [1683663348.421422550, 298.102000000]: Task 'AlignWithTarget' terminated[0m
+[0m[ INFO] [1683663348.466281320, 298.147000000]: Going to 3.00 3.10[0m
+[0m[ INFO] [1683663348.466472295, 298.147000000]: Running task 'FollowLine' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663357.661597857, 307.307000000]: Task 'FollowLine' not running anymore (4)[0m
+[0m[ INFO] [1683663357.661674908, 3[INFO] [1683663066.530033, 0.000000]: Creating link to services on node task_server
+[INFO] [1683663067.565243, 18.506000]: Mission connected to server: task_server
+[INFO] [1683663067.571916, 18.512000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1683663067.573362, 18.514000]: Starting task SetStatusSync
+[INFO] [1683663067.934637, 18.873000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1683663067.937429, 18.876000]: Starting task WaitForStatusSync
+[INFO] [1683663067.982096, 18.920000]: task_server: Starting task AlignWithTarget in foreground
+[INFO] [1683663067.985052, 18.923000]: Starting task AlignWithTarget
+[INFO] [1683663068.050485, 18.988000]: task_server: Starting task FollowLine in foreground
+[INFO] [1683663068.051977, 18.989000]: Starting task FollowLine
+[INFO] [1683663097.407677, 48.255000]: task_server: Starting task AlignWithTarget in foreground
+[INFO] [1683663097.409271, 48.257000]: Starting task AlignWithTarget
+[INFO] [1683663102.920537, 53.756000]: task_server: Starting task FollowLine in foreground
+[INFO] [1683663102.922169, 53.757000]: Starting task FollowLine
+[INFO] [1683663111.909842, 62.723000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1683663111.911716, 62.725000]: Starting task SetStatusSync
+[INFO] [1683663111.935647, 62.749000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1683663111.937359, 62.750000]: Starting task WaitForStatusSync
+[INFO] [1683663113.026672, 63.837000]: task_server: Starting task AlignWithTarget in foreground
+[INFO] [1683663113.028254, 63.839000]: Starting task AlignWithTarget
+[INFO] [1683663120.049417, 70.816000]: task_server: Starting task FollowLine in foreground
+[INFO] [1683663120.051108, 70.817000]: Starting task FollowLine
+[INFO] [1683663148.030025, 98.672000]: task_server: Starting task AlignWithTarget in foreground
+[INFO] [1683663148.032538, 98.674000]: Starting task AlignWithTarget
+[INFO] [1683663153.143873, 103.764000]: task_server: Starting task FollowLine in foreground
+[INFO] [1683663153.145711, 103.765000]: Starting task FollowLine
+[INFO] [1683663162.401032, 112.963000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1683663162.402738, 112.963000]: Starting task SetStatusSync
+[INFO] [1683663162.427631, 112.990000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1683663162.429424, 112.992000]: Starting task WaitForStatusSync
+[INFO] [1683663162.455414, 113.018000]: task_server: Starting task AlignWithTarget in foreground
+[INFO] [1683663162.457469, 113.020000]: Starting task AlignWithTarget
+[INFO] [1683663167.934599, 118.477000]: task_server: Starting task FollowLine in foreground
+[INFO] [1683663167.937204, 118.480000]: Starting task FollowLine
+[INFO] [1683663196.754352, 147.077000]: task_server: Starting task AlignWithTarget in foreground
+[INFO] [1683663196.756322, 147.079000]: Starting task AlignWithTarget
+[INFO] [1683663202.679583, 152.964000]: task_server: Starting task FollowLine in foreground
+[INFO] [1683663202.681722, 152.966000]: Starting task FollowLine
+[INFO] [1683663211.479993, 161.707000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1683663211.482074, 161.709000]: Starting task SetStatusSync
+[INFO] [1683663211.508974, 161.735000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1683663211.511317, 161.737000]: Starting task WaitForStatusSync
+[INFO] [1683663211.561408, 161.785000]: task_server: Starting task GoTo in foreground
+[INFO] [1683663211.563767, 161.787000]: Starting task GoTo
+[INFO] [1683663236.188902, 186.327000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1683663236.190716, 186.328000]: Starting task SetStatusSync
+[INFO] [1683663236.216827, 186.354000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1683663236.218807, 186.356000]: Starting task WaitForStatusSync
+[INFO] [1683663246.924770, 197.023000]: task_server: Starting task GoTo in foreground
+[INFO] [1683663246.926436, 197.024000]: Starting task GoTo
+[INFO] [1683663260.884757, 210.921000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1683663260.886527, 210.923000]: Starting task SetStatusSync
+[INFO] [1683663260.911276, 210.948000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1683663260.913634, 210.950000]: Starting task WaitForStatusSync
+[INFO] [1683663263.914330, 213.940000]: task_server: Starting task AlignWithTarget in foreground
+[INFO] [1683663263.917325, 213.942000]: Starting task AlignWithTarget
+[INFO] [1683663263.965182, 213.990000]: task_server: Starting task FollowLine in foreground
+[INFO] [1683663263.967214, 213.991000]: Starting task FollowLine
+[INFO] [1683663293.701385, 243.613000]: task_server: Starting task AlignWithTarget in foreground
+[INFO] [1683663293.703089, 243.614000]: Starting task AlignWithTarget
+[INFO] [1683663299.599568, 249.459000]: task_server: Starting task FollowLine in foreground
+[INFO] [1683663299.601724, 249.462000]: Starting task FollowLine
+[INFO] [1683663308.331907, 258.160000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1683663308.333698, 258.160000]: Starting task SetStatusSync
+[INFO] [1683663308.359398, 258.187000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1683663308.361334, 258.189000]: Starting task WaitForStatusSync
+[INFO] [1683663309.411160, 259.233000]: task_server: Starting task AlignWithTarget in foreground
+[INFO] [1683663309.412741, 259.234000]: Starting task AlignWithTarget
+[INFO] [1683663314.907878, 264.708000]: task_server: Starting task FollowLine in foreground
+[INFO] [1683663314.909680, 264.709000]: Starting task FollowLine
+[INFO] [1683663343.072234, 292.772000]: task_server: Starting task AlignWithTarget in foreground
+[INFO] [1683663343.074585, 292.774000]: Starting task AlignWithTarget
+[INFO] [1683663348.430331, 298.111000]: task_server: Starting task FollowLine in foreground
+[INFO] [1683663348.432191, 298.113000]: Starting task FollowLine
+[INFO] [1683663357.667185, 307.313000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1683663357.668768, 307.314000]: Starting task SetStatusSync
+[INFO] [1683663357.693435, 307.339000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1683663357.695979, 307.341000]: Starting task WaitForStatusSync
+[INFO] [1683663357.882041, 307.527000]: task_server: Starting task AlignWithTarget in foreground
+[INFO] [1683663357.884309, 307.529000]: Starting task AlignWithTarget
+[INFO] [1683663362.940126, 312.560000]: task_server: Starting task FollowLine in foreground
+[INFO] [1683663362.942181, 312.562000]: Starting task FollowLine
+[INFO] [1683663391.801905, 341.322000]: task_server: Starting task AlignWithTarget in foreground
+[INFO] [1683663391.803548, 341.324000]: Starting task AlignWithTarget
+[INFO] [1683663398.459253, 347.960000]: task_server: Starting task FollowLine in foreground
+[INFO] [1683663398.461186, 347.962000]: Starting task FollowLine
+[INFO] [1683663407.191884, 356.623000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1683663407.194052, 356.625000]: Starting task SetStatusSync
+[INFO] [1683663407.220697, 356.651000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1683663407.222942, 356.653000]: Starting task WaitForStatusSync
+[INFO] [1683663407.269086, 356.697000]: Mission completed in 338.185 seconds
+g to 3.00 0.90[0m
+[0m[ INFO] [1683663348.626583208, 298.305000000]: Running task 'FollowLine' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663357.809997459, 307.455000000]: Task 'FollowLine' not running anymore (4)[0m
+[0m[ INFO] [1683663357.810058716, 307.455000000]: Cleaning up task 37:FollowLine[0m
+[0m[ INFO] [1683663357.810114534, 307.455000000]: Task 'FollowLine' terminated[0m
+[0m[ INFO] [1683663357.843371172, 307.489000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663357.843449603, 307.489000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663357.843486654, 307.489000000]: Cleaning up task 38:SetStatusSync[0m
+[0m[ INFO] [1683663357.843514168, 307.489000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1683663357.872631928, 307.517000000]: Waiting for partner 'crawler_1' to reach status 7[0m
+[0m[ INFO] [1683663357.872841705, 307.518000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663357.872917058, 307.518000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663357.872951242, 307.518000000]: Cleaning up task 39:WaitForStatusSync[0m
+[0m[ INFO] [1683663357.872981726, 307.518000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1683663357.925509332, 307.569000000]: Going to -3.00 0.90[0m
+[0m[ INFO] [1683663357.925731261, 307.570000000]: Running task 'AlignWithTarget' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663363.040797346, 312.660000000]: Task 'AlignWithTarget' not running anymore (4)[0m
+[0m[ INFO] [1683663363.040841009, 312.660000000]: Cleaning up task 40:AlignWithTarget[0m
+[0m[ INFO] [1683663363.040881666, 312.660000000]: Task 'AlignWithTarget' terminated[0m
+[0m[ INFO] [1683663363.087294157, 312.707000000]: Going to -3.00 0.90[0m
+[0m[ INFO] [1683663363.087431212, 312.707000000]: Running task 'FollowLine' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663391.586786215, 341.108000000]: Task 'FollowLine' not running anymore (4)[0m
+[0m[ INFO] [1683663391.586809448, 341.108000000]: Cleaning up task 41:FollowLine[0m
+[0m[ INFO] [1683663391.586854988, 341.108000000]: Task 'FollowLine' terminated[0m
+[0m[ INFO] [1683663391.623517320, 341.144000000]: Going to -3.00 2.90[0m
+[0m[ INFO] [1683663391.623668977, 341.144000000]: Running task 'AlignWithTarget' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663397.952168257, 347.455000000]: Task 'AlignWithTarget' not running anymore (4)[0m
+[0m[ INFO] [1683663397.952219884, 347.455000000]: Cleaning up task 42:AlignWithTarget[0m
+[0m[ INFO] [1683663397.952262390, 347.455000000]: Task 'AlignWithTarget' terminated[0m
+[0m[ INFO] [1683663397.989931559, 347.492000000]: Going to -3.00 2.90[0m
+[0m[ INFO] [1683663397.990068800, 347.492000000]: Running task 'FollowLine' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663406.818526933, 356.252000000]: Task 'FollowLine' not running anymore (4)[0m
+[0m[ INFO] [1683663406.818575979, 356.252000000]: Cleaning up task 43:FollowLine[0m
+[0m[ INFO] [1683663406.818638430, 356.252000000]: Task 'FollowLine' terminated[0m
+[0m[ INFO] [1683663406.858491650, 356.291000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663406.858589143, 356.291000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663406.858629454, 356.291000000]: Cleaning up task 44:SetStatusSync[0m
+[0m[ INFO] [1683663406.858663609, 356.291000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1683663406.888683819, 356.321000000]: Waiting for partner 'crawler_1' to reach status 8[0m
+[0m[ INFO] [1683663406.888898850, 356.322000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663407.314133867, 356.742000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[INFO] [1683663066.576607, 0.000000]: Creating link to services on node task_server
+[INFO] [1683663067.607347, 18.548000]: Mission connected to server: task_server
+[INFO] [1683663067.614261, 18.553000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1683663067.616744, 18.556000]: Starting task SetStatusSync
+[INFO] [1683663067.896504, 18.836000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1683663067.898606, 18.838000]: Starting task WaitForStatusSync
+[INFO] [1683663067.924215, 18.863000]: task_server: Starting task AlignWithTarget in foreground
+[INFO] [1683663067.925768, 18.863000]: Starting task AlignWithTarget
+[INFO] [1683663067.970440, 18.908000]: task_server: Starting task FollowLine in foreground
+[INFO] [1683663067.972396, 18.910000]: Starting task FollowLine
+[INFO] [1683663097.531013, 48.379000]: task_server: Starting task AlignWithTarget in foreground
+[INFO] [1683663097.532824, 48.380000]: Starting task AlignWithTarget
+[INFO] [1683663104.089935, 54.922000]: task_server: Starting task FollowLine in foreground
+[INFO] [1683663104.091514, 54.923000]: Starting task FollowLine
+[INFO] [1683663112.898052, 63.709000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1683663112.899584, 63.710000]: Starting task SetStatusSync
+[INFO] [1683663112.923366, 63.732000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1683663112.924965, 63.732000]: Starting task WaitForStatusSync
+[INFO] [1683663112.949873, 63.759000]: task_server: Starting task AlignWithTarget in foreground
+[INFO] [1683663112.951449, 63.762000]: Starting task AlignWithTarget
+[INFO] [1683663118.689072, 69.459000]: task_server: Starting task FollowLine in foreground
+[INFO] [1683663118.690962, 69.462000]: Starting task FollowLine
+[INFO] [1683663146.929620, 97.578000]: task_server: Starting task AlignWithTarget in foreground
+[INFO] [1683663146.931406, 97.579000]: Starting task AlignWithTarget
+[INFO] [1683663151.887509, 102.513000]: task_server: Starting task FollowLine in foreground
+[INFO] [1683663151.889240, 102.514000]: Starting task FollowLine
+[INFO] [1683663161.205185, 111.771000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1683663161.207127, 111.773000]: Starting task SetStatusSync
+[INFO] [1683663161.233058, 111.799000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1683663161.235286, 111.801000]: Starting task WaitForStatusSync
+[INFO] [1683663162.486274, 113.048000]: task_server: Starting task AlignWithTarget in foreground
+[INFO] [1683663162.488894, 113.050000]: Starting task AlignWithTarget
+[INFO] [1683663167.781711, 118.325000]: task_server: Starting task FollowLine in foreground
+[INFO] [1683663167.783614, 118.327000]: Starting task FollowLine
+[INFO] [1683663196.938869, 147.260000]: task_server: Starting task AlignWithTarget in foreground
+[INFO] [1683663196.940861, 147.262000]: Starting task AlignWithTarget
+[INFO] [1683663202.381223, 152.667000]: task_server: Starting task FollowLine in foreground
+[INFO] [1683663202.383311, 152.669000]: Starting task FollowLine
+[INFO] [1683663211.390927, 161.618000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1683663211.393618, 161.621000]: Starting task SetStatusSync
+[INFO] [1683663211.419537, 161.647000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1683663211.422011, 161.649000]: Starting task WaitForStatusSync
+[INFO] [1683663211.529145, 161.754000]: task_server: Starting task GoTo in foreground
+[INFO] [1683663211.531700, 161.756000]: Starting task GoTo
+[INFO] [1683663246.817225, 196.916000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1683663246.819178, 196.918000]: Starting task SetStatusSync
+[INFO] [1683663246.844390, 196.943000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1683663246.846745, 196.945000]: Starting task WaitForStatusSync
+[INFO] [1683663246.872235, 196.971000]: task_server: Starting task GoTo in foreground
+[INFO] [1683663246.874286, 196.973000]: Starting task GoTo
+[INFO] [1683663263.836981, 213.862000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1683663263.838974, 213.864000]: Starting task SetStatusSync
+[INFO] [1683663263.864638, 213.890000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1683663263.866838, 213.892000]: Starting task WaitForStatusSync
+[INFO] [1683663263.892613, 213.918000]: task_server: Starting task AlignWithTarget in foreground
+[INFO] [1683663263.894432, 213.920000]: Starting task AlignWithTarget
+[INFO] [1683663264.080044, 214.104000]: task_server: Starting task FollowLine in foreground
+[INFO] [1683663264.081686, 214.105000]: Starting task FollowLine
+[INFO] [1683663293.917967, 243.824000]: task_server: Starting task AlignWithTarget in foreground
+[INFO] [1683663293.920171, 243.830000]: Starting task AlignWithTarget
+[INFO] [1683663300.299457, 250.158000]: task_server: Starting task FollowLine in foreground
+[INFO] [1683663300.301250, 250.159000]: Starting task FollowLine
+[INFO] [1683663309.293809, 259.117000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1683663309.295688, 259.119000]: Starting task SetStatusSync
+[INFO] [1683663309.320482, 259.144000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1683663309.322201, 259.145000]: Starting task WaitForStatusSync
+[INFO] [1683663309.346996, 259.169000]: task_server: Starting task AlignWithTarget in foreground
+[INFO] [1683663309.348721, 259.170000]: Starting task AlignWithTarget
+[INFO] [1683663315.066371, 264.866000]: task_server: Starting task FollowLine in foreground
+[INFO] [1683663315.068130, 264.867000]: Starting task FollowLine
+[INFO] [1683663343.312288, 293.012000]: task_server: Starting task AlignWithTarget in foreground
+[INFO] [1683663343.313977, 293.013000]: Starting task AlignWithTarget
+[INFO] [1683663348.587746, 298.266000]: task_server: Starting task FollowLine in foreground
+[INFO] [1683663348.589421, 298.267000]: Starting task FollowLine
+[INFO] [1683663357.824198, 307.469000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1683663357.826078, 307.471000]: Starting task SetStatusSync
+[INFO] [1683663357.850430, 307.495000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1683663357.852253, 307.497000]: Starting task WaitForStatusSync
+[INFO] [1683663357.877992, 307.523000]: task_server: Starting task AlignWithTarget in foreground
+[INFO] [1683663357.879695, 307.524000]: Starting task AlignWithTarget
+[INFO] [1683663363.051002, 312.670000]: task_server: Starting task FollowLine in foreground
+[INFO] [1683663363.052700, 312.672000]: Starting task FollowLine
+[INFO] [1683663391.598316, 341.119000]: task_server: Starting task AlignWithTarget in foreground
+[INFO] [1683663391.599730, 341.119000]: Starting task AlignWithTarget
+[INFO] [1683663397.954531, 347.457000]: task_server: Starting task FollowLine in foreground
+[INFO] [1683663397.956346, 347.458000]: Starting task FollowLine
+[INFO] [1683663406.832940, 356.266000]: task_server: Starting task SetStatusSync in foreground
+[INFO] [1683663406.835173, 356.268000]: Starting task SetStatusSync
+[INFO] [1683663406.860256, 356.293000]: task_server: Starting task WaitForStatusSync in foreground
+[INFO] [1683663406.862567, 356.295000]: Starting task WaitForStatusSync
+[INFO] [1683663407.333329, 356.761000]: Mission completed in 338.208 seconds
+07.307000000]: Cleaning up task 37:FollowLine[0m
+[0m[ INFO] [1683663357.661888763, 307.307000000]: Task 'FollowLine' terminated[0m
+[0m[ INFO] [1683663357.686421490, 307.332000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663357.686488676, 307.332000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663357.686523722, 307.332000000]: Cleaning up task 38:SetStatusSync[0m
+[0m[ INFO] [1683663357.686559028, 307.332000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1683663357.716884596, 307.362000000]: Waiting for partner 'crawler_0' to reach status 7[0m
+[0m[ INFO] [1683663357.717054241, 307.362000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663357.877199749, 307.522000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663357.877239170, 307.522000000]: Cleaning up task 39:WaitForStatusSync[0m
+[0m[ INFO] [1683663357.877263418, 307.522000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1683663357.933121085, 307.577000000]: Going to -3.00 3.10[0m
+[0m[ INFO] [1683663357.933275749, 307.577000000]: Running task 'AlignWithTarget' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663362.936467446, 312.557000000]: Task 'AlignWithTarget' not running anymore (4)[0m
+[0m[ INFO] [1683663362.936509166, 312.557000000]: Cleaning up task 40:AlignWithTarget[0m
+[0m[ INFO] [1683663362.936556857, 312.557000000]: Task 'AlignWithTarget' terminated[0m
+[0m[ INFO] [1683663362.978207641, 312.597000000]: Going to -3.00 3.10[0m
+[0m[ INFO] [1683663362.978360674, 312.597000000]: Running task 'FollowLine' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663391.786349366, 341.307000000]: Task 'FollowLine' not running anymore (4)[0m
+[0m[ INFO] [1683663391.786373558, 341.307000000]: Cleaning up task 41:FollowLine[0m
+[0m[ INFO] [1683663391.786392925, 341.307000000]: Task 'FollowLine' terminated[0m
+[0m[ INFO] [1683663391.826731445, 341.347000000]: Going to -3.00 5.10[0m
+[0m[ INFO] [1683663391.826933326, 341.347000000]: Running task 'AlignWithTarget' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663398.456056012, 347.957000000]: Task 'AlignWithTarget' not running anymore (4)[0m
+[0m[ INFO] [1683663398.456091443, 347.957000000]: Cleaning up task 42:AlignWithTarget[0m
+[0m[ INFO] [1683663398.456135362, 347.957000000]: Task 'AlignWithTarget' terminated[0m
+[0m[ INFO] [1683663398.492927987, 347.994000000]: Going to -3.00 5.10[0m
+[0m[ INFO] [1683663398.493091896, 347.994000000]: Running task 'FollowLine' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663407.173597556, 356.605000000]: Task 'FollowLine' not running anymore (4)[0m
+[0m[ INFO] [1683663407.173653616, 356.605000000]: Cleaning up task 43:FollowLine[0m
+[0m[ INFO] [1683663407.173698001, 356.605000000]: Task 'FollowLine' terminated[0m
+[0m[ INFO] [1683663407.216847614, 356.648000000]: Running task 'SetStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663407.216962522, 356.648000000]: Task 'SetStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663407.217010071, 356.648000000]: Cleaning up task 44:SetStatusSync[0m
+[0m[ INFO] [1683663407.217043349, 356.648000000]: Task 'SetStatusSync' terminated[0m
+[0m[ INFO] [1683663407.248700329, 356.678000000]: Waiting for partner 'crawler_0' to reach status 8[0m
+[0m[ INFO] [1683663407.248931873, 356.678000000]: Running task 'WaitForStatusSync' at period 0.010000 main 1 timeout -1.000000 periodic 1[0m
+[0m[ INFO] [1683663407.249027399, 356.678000000]: Task 'WaitForStatusSync' not running anymore (4)[0m
+[0m[ INFO] [1683663407.249060336, 356.678000000]: Cleaning up task 45:WaitForStatusSync[0m
+[0m[ INFO] [1683663407.249092685, 356.678000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1683663407.762149171, 357.188000000]: Running task 'Idle' at period 0.500000 main 1 timeout -1.000000 periodic 1[0m
+[ INFO] [1683663407.314199278, 356.742000000]: Cleaning up task 45:WaitForStatusSync[0m
+[0m[ INFO] [1683663407.314286418, 356.742000000]: Task 'WaitForStatusSync' terminated[0m
+[0m[ INFO] [1683663407.827002527, 357.252000000]: Running task 'Idle' at period 0.500000 main 1 timeout -1.000000 periodic 1[0m
+[31mWARNING: disk usage in log directory [/home/chroma/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+[31m================================================================================REQUIRED process [crawler_1/mission-5] has died!
+process has finished cleanly
+log file: /home/chroma/.ros/log/946a6888-eea5-11ed-9197-3fa0c4db1b13/crawler_1-mission-5*.log
+Initiating shutdown!
+================================================================================[0m
+... logging to /home/chroma/.ros/log/946a6888-eea5-11ed-9197-3fa0c4db1b13/roslaunch-chroma-HP-ProBook-650-G2-29142.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;/home/chroma/Documents/bugwright2-ws/bugwright_ws/src/my_sim/launch/crawler_navigation_nospawn.launch
+[1mstarted roslaunch server http://chroma-HP-ProBook-650-G2:45821/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /crawler_0/mission/crawler_id: 0
+ * /crawler_0/mission/crawlers_distance: 2.0
+ * /crawler_0/mission/height: 6.0
+ * /crawler_0/mission/overlap: 0.1
+ * /crawler_0/mission/period: 0.01
+ * /crawler_0/mission/server: task_server
+ * /crawler_0/mission/stride_size: 2.0
+ * /crawler_0/mission/velocity: 0.2
+ * /crawler_0/mission/width: 6.0
+ * /crawler_0/task_server/auto_topic: /crawler_0/cmd_vel
+ * /crawler_0/task_server/base_frame: /crawler_0/base_f...
+ * /crawler_0/task_server/id: 0
+ * /crawler_0/task_server/joystick_topic: /crawler_0/teleop...
+ * /crawler_0/task_server/lib_path: /home/chroma/Docu...
+ * /crawler_0/task_server/my_id: 0
+ * /crawler_0/task_server/my_name: crawler_0
+ * /crawler_0/task_server/reference_frame: /world
+ * /crawler_1/mission/crawler_id: 1
+ * /crawler_1/mission/crawlers_distance: 2.0
+ * /crawler_1/mission/height: 6.0
+ * /crawler_1/mission/overlap: 0.1
+ * /crawler_1/mission/period: 0.01
+ * /crawler_1/mission/server: task_server
+ * /crawler_1/mission/stride_size: 2.0
+ * /crawler_1/mission/velocity: 0.2
+ * /crawler_1/mission/width: 6.0
+ * /crawler_1/task_server/auto_topic: /crawler_1/cmd_vel
+ * /crawler_1/task_server/base_frame: /crawler_1/base_f...
+ * /crawler_1/task_server/id: 1
+ * /crawler_1/task_server/joystick_topic: /crawler_1/teleop...
+ * /crawler_1/task_server/lib_path: /home/chroma/Docu...
+ * /crawler_1/task_server/my_id: 1
+ * /crawler_1/task_server/my_name: crawler_1
+ * /crawler_1/task_server/reference_frame: /world
+ * /rosdistro: noetic
+ * /rosversion: 1.16.0
+
+NODES
+  /crawler_0/
+    cmd_mux (topic_tools/mux)
+    mission (floor_nav/peinture_au_rouleau.py)
+    task_server (floor_nav/task_server)
+  /crawler_1/
+    cmd_mux (topic_tools/mux)
+    mission (floor_nav/peinture_au_rouleau.py)
+    task_server (floor_nav/task_server)
+
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/chroma/Documents/bugwright2-ws/bugwright_ws/src/my_sim/launch/crawler_navigation_nospawn.launch http://localhost:11311
+[1mprocess[crawler_0/task_server-1]: started with pid [29168][0m
+[1mprocess[crawler_0/mission-2]: started with pid [29169][0m
+[1mprocess[crawler_0/cmd_mux-3]: started with pid [29170][0m
+[1mprocess[crawler_1/task_server-4]: started with pid [29171][0m
+[1mprocess[crawler_1/mission-5]: started with pid [29172][0m
+[1mprocess[crawler_1/cmd_mux-6]: started with pid [29178][0m
+[crawler_1/cmd_mux-6] killing on exit
+[crawler_1/mission-5] killing on exit
+[crawler_0/cmd_mux-3] killing on exit
+[crawler_0/mission-2] killing on exit
+[crawler_1/task_server-4] killing on exit
+[crawler_0/task_server-1] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m

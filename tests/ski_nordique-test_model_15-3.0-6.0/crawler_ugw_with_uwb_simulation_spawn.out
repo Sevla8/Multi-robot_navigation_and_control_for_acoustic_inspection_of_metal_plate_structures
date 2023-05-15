@@ -1,0 +1,160 @@
+warning: redefining global symbol: pi
+when processing file: /home/chroma/Documents/bugwright2-ws/bugwright_ws/src/my_sim/models/CrawlerUGW/crawler.xacro
+warning: redefining global symbol: pi
+when processing file: /home/chroma/Documents/bugwright2-ws/bugwright_ws/src/my_sim/models/CrawlerUGW/crawler.xacro
+[0m[ INFO] [1684060871.217545493]: Finished loading Gazebo ROS API Plugin.[0m
+[0m[ INFO] [1684060871.218862330]: waitForService: Service [/gazebo/set_physics_properties] has not been advertised, waiting...[0m
+[0m[ INFO] [1684060871.694030754]: waitForService: Service [/gazebo/set_physics_properties] is now available.[0m
+[0m[ INFO] [1684060871.717904502, 0.008000000]: Physics dynamic reconfigure ready.[0m
+[0m[ INFO] [1684060872.654588904, 0.139000000]: Camera Plugin: Using the 'robotNamespace' param: '/'[0m
+[0m[ INFO] [1684060872.657752645, 0.139000000]: Camera Plugin (ns = /)  <tf_prefix_>, set to ""[0m
+[0m[ INFO] [1684060872.666040596, 0.139000000]: <robotNamespace> set to: //[0m
+[0m[ INFO] [1684060872.666064912, 0.139000000]: <topicName> set to: /crawler1/imu[0m
+[0m[ INFO] [1684060872.666074883, 0.139000000]: <frameName> set to: crawler_1/base_link[0m
+[0m[ INFO] [1684060872.666111083, 0.139000000]: <updateRateHZ> set to: 10[0m
+[0m[ INFO] [1684060872.666124670, 0.139000000]: <gaussianNoise> set to: 0[0m
+[0m[ INFO] [1684060872.666145147, 0.139000000]: <xyzOffset> set to: 0 0 0[0m
+[0m[ INFO] [1684060872.666172882, 0.139000000]: <rpyOffset> set to: 0 -0 0[0m
+[0m[ INFO] [1684060872.680334873, 0.139000000]: NS UWBe1 UwbPlugin::Load crawler1 Tag 0 Publish TF 1[0m
+NS UWBe1 Uwb topic: uwb
+[0m[ INFO] [1684060872.681176505, 0.139000000]: NS TAG1 UwbPlugin::Load crawler1 Tag 1 Publish TF 0[0m
+NS TAG1 Uwb topic: crawler1/uwb_sim
+[33m[ WARN] [1684060872.691827343, 0.139000000]: DiffDrive(ns = //): missing <rosDebugLevel> default is na[0m
+[33m[ WARN] [1684060872.695678267, 0.139000000]: DiffDrive(ns = //): missing <wheelAcceleration> default is 0[0m
+[33m[ WARN] [1684060872.695717931, 0.139000000]: DiffDrive(ns = //): missing <wheelTorque> default is 5[0m
+[31m[ERROR] [1684060873.294948140, 0.541000000]: Tried to advertise a service that is already advertised in this node [/IFM_ir/set_camera_info][0m
+[31m[ERROR] [1684060873.296443500, 0.541000000]: Tried to advertise a service that is already advertised in this node [/IFM_ir/set_parameters][0m
+[0m[ INFO] [1684060872.691736405, 0.139000000]: Starting plugin DiffDrive(ns = //)[0m
+[0m[ INFO] [1684060872.695397837, 0.139000000]: DiffDrive(ns = //): <tf_prefix> = [0m
+[0m[ INFO] [1684060872.695924034, 0.139000000]: DiffDrive(ns = //): Try to subscribe to /crawler1/base_controller/cmd_vel[0m
+[0m[ INFO] [1684060872.698197297, 0.139000000]: DiffDrive(ns = //): Subscribe to /crawler1/base_controller/cmd_vel[0m
+[0m[ INFO] [1684060872.698771743, 0.139000000]: DiffDrive(ns = //): Advertise odom on /crawler1/odom [0m
+[0m[ INFO] [1684060873.294664362, 0.541000000]: Camera Plugin: Using the 'robotNamespace' param: '/'[0m
+[0m[ INFO] [1684060873.296114466, 0.541000000]: <robotNamespace> set to: //[0m
+[0m[ INFO] [1684060873.296142300, 0.541000000]: <topicName> set to: /crawler0/imu[0m
+[0m[ INFO] [1684060873.296188934, 0.541000000]: <frameName> set to: crawler_0/base_link[0m
+[0m[ INFO] [1684060873.296227956, 0.541000000]: <updateRateHZ> set to: 10[0m
+[0m[ INFO] [1684060873.296277512, 0.541000000]: <gaussianNoise> set to: 0[0m
+[0m[ INFO] [1684060873.296320242, 0.541000000]: <xyzOffset> set to: 0 0 0[0m
+[0m[ INFO] [1684060873.296354767, 0.541000000]: <rpyOffset> set to: 0 -0 0[0m
+[0m[ INFO] [1684060873.296406922, 0.541000000]: Camera Plugin (ns = /)  <tf_prefix_>, set to ""[0m
+[0m[ INFO] [1684060873.304793048, 0.541000000]: NS UWBe0 UwbPlugin::Load crawler0 Tag 0 Publish TF 1[0m
+NS UWBe0 Uwb topic: uwb
+[0m[ INFO] [1684060873.305077629, 0.541000000]: NS TAG0 UwbPlugin::Load crawler0 Tag 1 Publish TF 0[0m
+NS TAG0 Uwb topic: crawler0/uwb_sim
+[33m[ WARN] [1684060873.306233697, 0.541000000]: DiffDrive(ns = //): missing <rosDebugLevel> default is na[0m
+[33m[ WARN] [1684060873.307354852, 0.541000000]: DiffDrive(ns = //): missing <wheelAcceleration> default is 0[0m
+[33m[ WARN] [1684060873.307388867, 0.541000000]: DiffDrive(ns = //): missing <wheelTorque> default is 5[0m
+[ERROR] [1684062227.026495, 1348.908000]: Delete model service call failed: transport error completing service call: unable to receive data from sender, check sender's logs for details
+[INFO] [1684060870.857263, 0.000000]: Loading model XML from ros parameter robot_description_crawler_0
+[INFO] [1684060870.862268, 0.000000]: Waiting for service /gazebo/spawn_urdf_model
+[INFO] [1684060871.771608, 0.055000]: Calling service /gazebo/spawn_urdf_model
+[INFO] [1684060873.304600, 0.541000]: Spawn status: SpawnModel: Successfully spawned entity
+[INFO] [1684060873.306539, 0.541000]: Waiting for shutdown to delete model crawler0
+[INFO] [1684062226.818534, 1348.805000]: Deleting model crawler0
+[ERROR] [1684062227.026530, 1348.908000]: Delete model service call failed: transport error completing service call: unable to receive data from sender, check sender's logs for details
+[INFO] [1684060870.816270, 0.000000]: Loading model XML from ros parameter robot_description_crawler_1
+[INFO] [1684060870.821911, 0.000000]: Waiting for service /gazebo/spawn_urdf_model
+[INFO] [1684060871.727447, 0.017000]: Calling service /gazebo/spawn_urdf_model
+[INFO] [1684060872.668018, 0.139000]: Spawn status: SpawnModel: Successfully spawned entity
+[INFO] [1684060872.669333, 0.139000]: Waiting for shutdown to delete model crawler1
+[INFO] [1684062226.819023, 1348.806000]: Deleting model crawler1
+[ERROR] [1684062227.026554, 1348.908000]: Delete model service call failed: transport error completing service call: unable to receive data from sender, check sender's logs for details
+[INFO] [1684060870.844910, 0.000000]: Loading model XML from ros parameter world_description
+[INFO] [1684060870.861175, 0.000000]: Waiting for service /gazebo/spawn_urdf_model
+[INFO] [1684060871.770734, 0.055000]: Calling service /gazebo/spawn_urdf_model
+[INFO] [1684060873.018192, 0.340000]: Spawn status: SpawnModel: Successfully spawned entity
+[INFO] [1684060873.020014, 0.342000]: Waiting for shutdown to delete model corrosion
+[INFO] [1684062226.922075, 1348.908000]: Deleting model corrosion
+[31m[gazebo-2] escalating to SIGTERM[0m
+... logging to /home/chroma/.ros/log/d62012ea-f243-11ed-9003-e5e619360a76/roslaunch-chroma-HP-ProBook-650-G2-176248.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/chroma/Documents/bugwright2-ws/bugwright_ws/src/my_sim/launch/crawler_ugw_with_uwb_simulation_spawn.launch
+[1mstarted roslaunch server http://chroma-HP-ProBook-650-G2:44545/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /crawler0_gt/base_frame: crawler0_gt
+ * /crawler0_gt/reference_frame: world
+ * /crawler1_gt/base_frame: crawler1_gt
+ * /crawler1_gt/reference_frame: world
+ * /crawler_0_1_ugw_viz/base_frame: crawler_0/UWBe
+ * /crawler_0_1_ugw_viz/tag_frame: crawler_1/UWBe
+ * /crawler_0_1_ugw_viz/tag_name: crawler1
+ * /gazebo/enable_ros_network: True
+ * /og_viz/base_frame: UWBe
+ * /og_viz/buddies/crawler0: crawler1
+ * /og_viz/grid_height: 6
+ * /og_viz/grid_resolution: 0.05
+ * /og_viz/grid_width: 6
+ * /og_viz/reference_frame: world
+ * /robot_description_crawler_0: <?xml version="1....
+ * /robot_description_crawler_1: <?xml version="1....
+ * /robot_state_publisher_crawler_0/publish_frequency: 10.0
+ * /robot_state_publisher_crawler_0/tf_prefix: crawler_0
+ * /robot_state_publisher_crawler_1/publish_frequency: 10.0
+ * /robot_state_publisher_crawler_1/tf_prefix: crawler_1
+ * /robot_state_publisher_world/publish_frequency: 1.0
+ * /rosdistro: noetic
+ * /rosversion: 1.16.0
+ * /use_sim_time: True
+ * /world_description: <?xml version="1....
+
+NODES
+  /
+    crawler0_gt (my_sim/pose_to_tf.py)
+    crawler1_gt (my_sim/pose_to_tf.py)
+    crawler_0_1_ugw_viz (my_sim/ugw_visualization.py)
+    gazebo (gazebo_ros/gzserver)
+    og_viz (my_sim/occgrid_visualization.py)
+    robot_state_publisher_crawler_0 (robot_state_publisher/robot_state_publisher)
+    robot_state_publisher_crawler_1 (robot_state_publisher/robot_state_publisher)
+    robot_state_publisher_world (robot_state_publisher/robot_state_publisher)
+    rviz (rviz/rviz)
+    spawn_corrosion (gazebo_ros/spawn_model)
+    spawn_crawler_0 (gazebo_ros/spawn_model)
+    spawn_crawler_1 (gazebo_ros/spawn_model)
+    world_to_world_tf (tf2_ros/static_transform_publisher)
+
+auto-starting new master
+[1mprocess[master]: started with pid [176284][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/chroma/Documents/bugwright2-ws/bugwright_ws/src/my_sim/launch/crawler_ugw_with_uwb_simulation_spawn.launch http://localhost:11311
+[1msetting /run_id to d62012ea-f243-11ed-9003-e5e619360a76[0m
+[1mprocess[rosout-1]: started with pid [176301][0m
+started core service [/rosout]
+[1mprocess[gazebo-2]: started with pid [176308][0m
+[1mprocess[spawn_corrosion-3]: started with pid [176312][0m
+[1mprocess[robot_state_publisher_world-4]: started with pid [176314][0m
+[1mprocess[world_to_world_tf-5]: started with pid [176315][0m
+[1mprocess[spawn_crawler_0-6]: started with pid [176316][0m
+[1mprocess[robot_state_publisher_crawler_0-7]: started with pid [176321][0m
+[1mprocess[spawn_crawler_1-8]: started with pid [176327][0m
+[1mprocess[robot_state_publisher_crawler_1-9]: started with pid [176329][0m
+[1mprocess[crawler0_gt-10]: started with pid [176331][0m
+[1mprocess[crawler1_gt-11]: started with pid [176336][0m
+[1mprocess[crawler_0_1_ugw_viz-12]: started with pid [176343][0m
+[1mprocess[og_viz-13]: started with pid [176353][0m
+[1mprocess[rviz-14]: started with pid [176354][0m
+[rviz-14] killing on exit
+[og_viz-13] killing on exit
+[crawler_0_1_ugw_viz-12] killing on exit
+[crawler1_gt-11] killing on exit
+[crawler0_gt-10] killing on exit
+[robot_state_publisher_crawler_1-9] killing on exit
+[spawn_crawler_1-8] killing on exit
+[robot_state_publisher_crawler_0-7] killing on exit
+[spawn_crawler_0-6] killing on exit
+[world_to_world_tf-5] killing on exit
+[robot_state_publisher_world-4] killing on exit
+[spawn_corrosion-3] killing on exit
+[gazebo-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m

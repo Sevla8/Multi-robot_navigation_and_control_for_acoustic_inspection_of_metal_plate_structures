@@ -3,13 +3,13 @@
 import numpy as np
 import random as rd
 
-def random_world(n_areas, height=6, width=6):
+def random_world(n_areas, complex, height=6, width=6):
 	"""
 		Generate a random world of size height x width with n_areas areas of corrosion.
 		Return a list of lists coordinates (x, y) of the corrosion areas with the associated convex polygon.
 	"""
 	coords = []
-	colors = ["DarkGrey"]
+	colors = ["Black"]
 	f = open("/home/chroma/Downloads/world.urdf", "w")
 	for i in range(n_areas):
 
@@ -30,11 +30,14 @@ def random_world(n_areas, height=6, width=6):
 
 		coords.append([x, y])
 
-		n_points = rd.randint(2, 7)
+		if complex:
+			n_points = rd.randint(2, 7)
+		else:
+			n_points = 2
 		color = rd.choice(colors)
 
 		if n_points == 2:
-			radius = round(rd.uniform(0.05, 0.3), 5)
+			radius = round(rd.uniform(0.1, 0.2), 5)
 			f.write('<xacro:cylinder_macro id="' + str(i) + '" color="' + color + '" radius="' + str(radius) + '" x="' + str(x) + '" y="' + str(y) + '"/>\n')
 		elif n_points == 3:
 			f.write('<xacro:poly3_macro id="' + str(i) + '" color="' + color + '" x="' + str(x) + '" y="' + str(y) + '"/>\n')
@@ -54,4 +57,4 @@ def random_world(n_areas, height=6, width=6):
 
 
 if __name__ == '__main__':
-	random_world(30)
+	random_world(30, complex=False)
