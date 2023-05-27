@@ -69,6 +69,7 @@ do
 					> /home/chroma/Documents/Multi-robot_navigation_and_control_for_acoustic_inspection_of_metal_plate_structures/tests/$m-$w-$d-$s/crawler_navigation_nospawn.out 2>&1
 
 				rosservice call /save_occgrid
+
 				mv /home/chroma/Downloads/occupancy_grid.png /home/chroma/Documents/Multi-robot_navigation_and_control_for_acoustic_inspection_of_metal_plate_structures/tests/$m-$w-$d-$s/occupancy_grid.png
 
 				pkill -P $$

@@ -1,11 +1,11 @@
 GRID_WIDTH=6
 GRID_HEIGHT=6
 GRID_RESOLUTION=0.05
-DISTANCE=(6.0 3.0 2.0 1.0)
+DISTANCE=(1.0 2.0 3.0 6.0)
 STRIDE=(1.0 2.0 3.0 6.0)
 OVERLAP=0.1
-N_POINTS=(3 4 5 7 10)
-N_CRAWLERS=(2 3 4)
-K_TEAMS=(1 2 3)
-WORLD=(test_model_5 test_model_8 test_model_11 test_model_15 test_model_20 test_model_30 test_model_11_complex test_model_15_complex)
-MISSION=(peinture_au_rouleau ski_nordique investigate)
+POINTS=(6)
+CRAWLERS=(2 3)
+TEAMS=(1 2)
+WORLD=(test_model_05_1 test_model_05_2 test_model_05_3 test_model_05_4 test_model_05_5 test_model_08_1 test_model_08_2 test_model_08_3 test_model_08_4 test_model_08_5 test_model_11_1 test_model_11_2 test_model_11_3 test_model_11_4 test_model_11_5 test_model_15_1 test_model_15_2 test_model_15_3 test_model_15_4 test_model_15_5 test_model_20_1 test_model_20_2 test_model_20_3 test_model_20_4 test_model_20_5 test_model_30_1 test_model_30_2 test_model_30_3 test_model_30_4 test_model_30_5 test_model_11_complex_1 test_model_11_complex_2 test_model_11_complex_3 test_model_11_complex_4 test_model_11_complex_5 test_model_15_complex_1 test_model_15_complex_2 test_model_15_complex_3 test_model_15_complex_4 test_model_15_complex_5)
+MISSION=(peinture_au_rouleau ski_nordique investigation_polygonale)

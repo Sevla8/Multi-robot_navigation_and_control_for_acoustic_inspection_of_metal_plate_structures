@@ -81,7 +81,7 @@ if __name__ == '__main__':
 	N_POINTS = [3, 4, 5, 7, 10]
 	N_CRAWLERS = [2, 3, 4]
 	WORLD = ['test_model_5', 'test_model_8', 'test_model_11', 'test_model_15', 'test_model_20', 'test_model_30', 'test_model_11_complex', 'test_model_15_complex']
-	MISSION = ['peinture_au_rouleau', 'ski_nordique', 'investigate']
+	MISSION = ['peinture_au_rouleau', 'ski_nordique', 'investigation_polygonale']
 
 	for mission in MISSION:
 		if mission == 'peinture_au_rouleau':
@@ -103,6 +103,15 @@ if __name__ == '__main__':
 							print(f'OK {path}')
 						else:
 							print(f'{path} does not exist')
-		elif mission == 'investigate':
-			pass
+		elif mission == 'investigation_polygonale':
+			for world in WORLD:
+				for point in N_POINTS:
+					for crawler in N_CRAWLERS:
+						for distance in DISTANCE:
+							path = f'{mission}-{world}-{point}-{crawler}-{distance}'
+							if os.path.isdir(f'/home/chroma/Documents/Multi-robot_navigation_and_control_for_acoustic_inspection_of_metal_plate_structures/tests/{path}') and os.path.isfile(f'/home/chroma/Documents/Multi-robot_navigation_and_control_for_acoustic_inspection_of_metal_plate_structures/tests/{path}/occupancy_grid.png'):
+								get_scores(world, path)
+								print(f'OK {path}')
+							else:
+								print(f'{path} does not exist')
 

@@ -57,4 +57,4 @@ def random_world(n_areas, complex, height=6, width=6):
 
 
 if __name__ == '__main__':
-	random_world(30, complex=False)
+	random_world(8, complex=False)
