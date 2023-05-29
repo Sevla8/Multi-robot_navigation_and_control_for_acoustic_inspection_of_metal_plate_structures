@@ -30,6 +30,17 @@ def random_world(n_areas, complex, height=6, width=6):
 
 		coords.append([x, y])
 
+		# if i >= n_areas - 3:
+		# 	if i >= 10:
+		# 		f.write('<xacro:poly3_macro id="' + str(i) + '" color="' + color + '" x="' + str(x) + '" y="' + str(y) + '"/>\n')
+		# 	else:
+		# 		width = round(rd.uniform(0.05, 0.3), 5)
+		# 		height = round(rd.uniform(1.0, 3.0), 5)
+		# 		yaw = round(rd.uniform(0.0, 2 * np.pi), 5)
+		# 		f.write('<xacro:box_macro id="' + str(i) + '" color="' + color + '" width="' + str(width) + '" length="' + str(height) + '" x="' + str(x) + '" y="' + str(y) + '" yaw="' + str(yaw) + '"/>\n')
+		# 	continue
+
+
 		if complex:
 			n_points = rd.randint(2, 7)
 		else:
@@ -57,4 +68,4 @@ def random_world(n_areas, complex, height=6, width=6):
 
 
 if __name__ == '__main__':
-	random_world(8, complex=False)
+	random_world(15, complex=False)

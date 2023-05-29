@@ -80,8 +80,21 @@ if __name__ == '__main__':
 	STRIDE = [1.0, 2.0, 3.0, 6.0]
 	N_POINTS = [3, 4, 5, 7, 10]
 	N_CRAWLERS = [2, 3, 4]
-	WORLD = ['test_model_5', 'test_model_8', 'test_model_11', 'test_model_15', 'test_model_20', 'test_model_30', 'test_model_11_complex', 'test_model_15_complex']
-	MISSION = ['peinture_au_rouleau', 'ski_nordique', 'investigation_polygonale']
+	WORLD = [
+		'test_model_05_1', 'test_model_05_2', 'test_model_05_3', 'test_model_05_4', 'test_model_05_5',
+		'test_model_8_1', 'test_model_8_2', 'test_model_8_3', 'test_model_8_4', 'test_model_8_5',
+		'test_model_11_1', 'test_model_11_2', 'test_model_11_3', 'test_model_11_4', 'test_model_11_5',
+		'test_model_15_1', 'test_model_15_2', 'test_model_15_3', 'test_model_15_4', 'test_model_15_5',
+		'test_model_20_1',
+		'test_model_30_1',
+		'test_model_11_complex_1',
+		'test_model_15_complex_1'
+	]
+	MISSION = [
+		'peinture_au_rouleau',
+		'ski_nordique',
+		'investigation_polygonale'
+	]
 
 	for mission in MISSION:
 		if mission == 'peinture_au_rouleau':
