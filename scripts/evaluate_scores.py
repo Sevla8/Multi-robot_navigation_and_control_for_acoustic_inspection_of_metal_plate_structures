@@ -82,7 +82,7 @@ if __name__ == '__main__':
 	N_CRAWLERS = [2, 3, 4]
 	WORLD = [
 		'test_model_05_1', 'test_model_05_2', 'test_model_05_3', 'test_model_05_4', 'test_model_05_5',
-		'test_model_8_1', 'test_model_8_2', 'test_model_8_3', 'test_model_8_4', 'test_model_8_5',
+		'test_model_08_1', 'test_model_08_2', 'test_model_08_3', 'test_model_08_4', 'test_model_08_5',
 		'test_model_11_1', 'test_model_11_2', 'test_model_11_3', 'test_model_11_4', 'test_model_11_5',
 		'test_model_15_1', 'test_model_15_2', 'test_model_15_3', 'test_model_15_4', 'test_model_15_5',
 		'test_model_20_1',
