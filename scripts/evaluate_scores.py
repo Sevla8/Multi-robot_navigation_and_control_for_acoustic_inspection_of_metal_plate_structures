@@ -75,11 +75,11 @@ if __name__ == '__main__':
 	GRID_WIDTH = 6
 	GRID_HEIGHT = 6
 	GRID_RESOLUTION = 0.05
-	DISTANCE = [6.0, 3.0, 2.0, 1.0]
 	OVERLAP = 0.1
+	DISTANCE = [1.0, 2.0, 3.0, 6.0]
 	STRIDE = [1.0, 2.0, 3.0, 6.0]
-	N_POINTS = [3, 4, 5, 7, 10]
-	N_CRAWLERS = [2, 3, 4]
+	N_POINTS = [4, 6]
+	N_CRAWLERS = [2, 4]
 	WORLD = [
 		'test_model_05_1', 'test_model_05_2', 'test_model_05_3', 'test_model_05_4', 'test_model_05_5',
 		'test_model_08_1', 'test_model_08_2', 'test_model_08_3', 'test_model_08_4', 'test_model_08_5',

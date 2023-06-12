@@ -25,10 +25,14 @@ do
 						mkdir /home/chroma/Documents/Multi-robot_navigation_and_control_for_acoustic_inspection_of_metal_plate_structures/tests/$m-$w-$p-$c-$d/
 					fi
 
-					crawler_1_x=0.0
+					crawler_1_x=3.0
 					crawler_1_y=-3.0
-					crawler_2_x=-3.0
+					crawler_2_x=1.0
 					crawler_2_y=-3.0
+					crawler_3_x=-1.0
+					crawler_3_y=-3.0
+					crawler_4_x=-3.0
+					crawler_4_y=-3.0
 
 					roslaunch my_sim crawler_ugw_with_uwb_simulation_spawn.launch \
 						grid_width:=$GRID_WIDTH \
@@ -38,6 +42,10 @@ do
 						crawler_1_starting_position_y:=$crawler_1_y \
 						crawler_2_starting_position_x:=$crawler_2_x \
 						crawler_2_starting_position_y:=$crawler_2_y \
+						crawler_3_starting_position_x:=$crawler_3_x \
+						crawler_3_starting_position_y:=$crawler_3_y \
+						crawler_4_starting_position_x:=$crawler_4_x \
+						crawler_4_starting_position_y:=$crawler_4_y \
 						world:=$w \
 						headless:=true \
 						gui:=false \
