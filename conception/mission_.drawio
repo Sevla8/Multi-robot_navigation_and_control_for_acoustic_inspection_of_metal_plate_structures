@@ -1,69 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T09:47:35.337Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.1" etag="wh6DsjBpOxUGDSSE87sQ" type="device">
-  <diagram id="XrMe6Lwlt_jfV4fgDarZ" name="Page-1">
-    <mxGraphModel dx="794" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Waiting at vertex k" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="185" y="40" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3" value="Moving to vertex k+1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="625" y="40" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="5" value="" style="curved=1;endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="2" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="115" y="105" as="sourcePoint" />
-            <mxPoint x="165" y="55" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="175" y="110" />
-              <mxPoint x="145" y="110" />
-              <mxPoint x="135" y="100" />
-              <mxPoint x="125" y="80" />
-              <mxPoint x="135" y="30" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6" value="" style="endArrow=classic;html=1;curved=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="3" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="505" y="120" as="sourcePoint" />
-            <mxPoint x="555" y="70" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7" value="vertex k+1 free&amp;nbsp;.&amp;nbsp;¬ P" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6" vertex="1" connectable="0">
-          <mxGeometry x="-0.4278" y="-2" relative="1" as="geometry">
-            <mxPoint x="77" y="-2" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8" value="" style="endArrow=classic;html=1;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3" target="3" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="505" y="120" as="sourcePoint" />
-            <mxPoint x="555" y="70" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="785" y="40" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9" value="vertex k+1 free" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="705" y="35" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="11" value="vertex k+1 occupied" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="50" y="55" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="12" value="" style="endArrow=classic;html=1;curved=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="3" target="2" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="120" as="sourcePoint" />
-            <mxPoint x="450" y="70" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="13" value="vertex k+1 occupied" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="12" vertex="1" connectable="0">
-          <mxGeometry x="0.1617" y="-1" relative="1" as="geometry">
-            <mxPoint x="26" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8Jl6xQLb49wclwULKZFZ-13" value="P = True if one robot is already moving, in other words, if&amp;nbsp;∃ k | k-1 free &amp;amp; k occupied &amp;amp; k+1 free&lt;br&gt;P = False otherwise&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="105" y="160" width="640" height="30" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="65bd71144e">
+    <diagram id="XrMe6Lwlt_jfV4fgDarZ" name="Page-1">
+        <mxGraphModel dx="988" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Waiting at vertex k" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="185" y="40" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Moving to vertex k+1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="625" y="40" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="curved=1;endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="2" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="115" y="105" as="sourcePoint"/>
+                        <mxPoint x="165" y="55" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="175" y="110"/>
+                            <mxPoint x="145" y="110"/>
+                            <mxPoint x="135" y="100"/>
+                            <mxPoint x="125" y="80"/>
+                            <mxPoint x="135" y="30"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="" style="endArrow=classic;html=1;curved=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="505" y="120" as="sourcePoint"/>
+                        <mxPoint x="555" y="70" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="vertex k+1 free&amp;nbsp;.&amp;nbsp;¬ P" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6" vertex="1" connectable="0">
+                    <mxGeometry x="-0.4278" y="-2" relative="1" as="geometry">
+                        <mxPoint x="77" y="-2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="" style="endArrow=classic;html=1;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3" target="3" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="505" y="120" as="sourcePoint"/>
+                        <mxPoint x="555" y="70" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="785" y="40"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="vertex k+1 free" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="705" y="35" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="vertex k+1 occupied + P" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="55" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="endArrow=classic;html=1;curved=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="3" target="2" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="120" as="sourcePoint"/>
+                        <mxPoint x="450" y="70" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="vertex k+1 occupied" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="12" vertex="1" connectable="0">
+                    <mxGeometry x="0.1617" y="-1" relative="1" as="geometry">
+                        <mxPoint x="26" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8Jl6xQLb49wclwULKZFZ-13" value="P = True if one robot is already moving, in other words, if&amp;nbsp;∃ k | k-1 free &amp;amp; k occupied &amp;amp; k+1 free&lt;br&gt;P = False otherwise&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="105" y="160" width="640" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>
