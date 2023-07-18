@@ -1,1 +1,3 @@
-# Multi-robot_navigation_and_control_for_acoustic_inspection_of_metal_plate_structures
+# Multi-robot Navigation and Control for Acoustic Inspection of Metal plate Structures
+
+This repository contains the documents, graphics, models and code produced during my End of Study Project at the [Institut National des Sciences appliquées de Lyon](https://www.insa-lyon.fr/en) (INSA Lyon) as well as during my master's thesis at the [Georgia Institute of Technology](https://www.gatech.edu/), both performed in the [Center of Innovation in Telecommunications and Integration of service](https://www.citi-lab.fr/) (CITI Lab) under the supervision of [Pr. Cédric Pradalier](https://dream.georgiatech-metz.fr/contact/) and [Pr. Olivier Simonin](http://perso.citi-lab.fr/osimonin/).
